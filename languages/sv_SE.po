@@ -1,0 +1,2757 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mojo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-05 08:48-0800\n"
+"PO-Revision-Date: 2013-09-05 08:48-0800\n"
+"Last-Translator: Johan <johan@luftflyt.com>\n"
+"Language-Team: Splashing Pixels <info@splashingpixels.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ sp
+#: ../404.php:16
+msgid "Not Found"
+msgstr "Ej funnen"
+
+# @ sp
+#: ../404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Ber om ursäkt men sidan du letar efter kunde inte hittas. Kanske det går "
+"bättre att använda sökning."
+
+# @ sp
+#: ../archive.php:26
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Dagliga arkiv: <span>%s</span>"
+
+# @ sp
+#: ../archive.php:28
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Månadsarkiv: <span>%s</span>"
+
+# @ sp
+#: ../archive.php:30
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Årsarkiv: <span>%s</span>"
+
+# @ sp
+#: ../archive.php:32
+msgid "Blog Archives"
+msgstr "Blogg arkiv"
+
+# @ sp
+#: ../archive.php:64 ../author.php:62 ../category.php:58 ../index.php:26
+#: ../search.php:59 ../tag.php:52
+msgid "Nothing Found"
+msgstr "Inget funnet"
+
+# @ sp
+#: ../archive.php:68 ../author.php:66 ../category.php:62 ../index.php:30
+#: ../tag.php:56
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Ber om ursäkt men arkivet du letar efter kunde inte hittas. Kanske det går "
+"bättre att använda sökning."
+
+# @ sp
+#: ../author.php:17
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Arkiv skribent: %s"
+
+# @ sp
+#: ../author.php:28
+#, php-format
+msgid "About %s"
+msgstr "Om %s"
+
+# @ sp
+#: ../category.php:18
+#, php-format
+msgid "Category: %s"
+msgstr "Kategori: %s"
+
+# @ sp
+#: ../category.php:54 ../comments-product.php:41 ../comments.php:52
+#: ../content-single.php:69 ../sp-framework/functions/shortcodes-tags.php:208
+msgid "Back to Top"
+msgstr "Tillbaka upp"
+
+# @ sp
+#: ../category.php:54
+msgid "Back to Top &uarr;"
+msgstr "Tillbaka Upp &uarr;"
+
+# @ sp
+#: ../comments-product.php:3 ../comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Detta inlägg är lösenordsskyddat. Skriv in ditt lösenord för att läsa "
+"kommentarer."
+
+# @ sp
+#: ../comments-product.php:16 ../wpsc-single_product.php:263
+msgid "Product Review"
+msgstr "Recension"
+
+# @ sp
+#: ../comments-product.php:19 ../comments-product.php:32
+msgid "&larr; Older Reviews"
+msgstr "&larr; Äldre Recensioner"
+
+# @ sp
+#: ../comments-product.php:20 ../comments-product.php:33
+msgid "Newer Reviews &rarr;"
+msgstr "Nyare Recensioner &rarr;"
+
+# @ sp
+#: ../comments.php:16
+#, fuzzy, php-format
+msgid "One Response to %2$s"
+msgstr "One Response to %2$s"
+
+# @ sp
+#: ../comments.php:22 ../comments.php:35
+msgid "<span class=\"meta-nav\">&lt;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&lt;</span> Äldre Kommentarer"
+
+# @ sp
+#: ../comments.php:23 ../comments.php:36
+msgid "Newer Comments <span class=\"meta-nav\">&gt;</span>"
+msgstr "Nyare Kommentarer <span class=\"meta-nav\">&gt;</span>"
+
+# @ sp
+#: ../comments.php:45
+msgid "Comments are closed."
+msgstr "Kommentarer stängt."
+
+# @ sp
+# @ woocommerce
+#: ../content-home.php:6 ../content-page.php:22 ../content-single.php:33
+#: ../content.php:67 ../content.php:133 ../sp-wpec-home-grid.php:274
+#: ../wpsc-grid_view.php:366 ../wpsc-products_page.php:236
+#: ../wpsc-search.php:277 ../wpsc-single_product.php:206
+#: ../woocommerce/myaccount/my-address.php:21
+#: ../woocommerce/myaccount/my-address.php:52
+msgid "Edit"
+msgstr "Redigera"
+
+# @ sp
+#: ../content-page.php:20 ../content-single.php:28 ../content.php:60
+#: ../content.php:126
+msgid "Pages:"
+msgstr "Sidor:"
+
+# @ sp
+#: ../content-portfolio.php:18 ../content.php:59 ../content.php:125
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Läs mer <span class=\"meta-nav\">&rarr;</span>"
+
+# @ sp
+#: ../content-portfolio.php:72
+msgid "All"
+msgstr "Allt"
+
+# @ sp
+#: ../content-portfolio.php:110 ../content-portfolio.php:128 ../content.php:29
+msgid "Read More"
+msgstr "Läs mer"
+
+# @ sp
+#: ../content-single.php:49
+#, php-format
+msgid "View all posts by %s"
+msgstr "Läs alla inlägg av %s"
+
+# @ sp
+#: ../content.php:29 ../content.php:96
+msgid "READ MORE"
+msgstr "LÄS MER"
+
+# @ sp
+#: ../content.php:66 ../content.php:132
+msgid "1"
+msgstr "1"
+
+# @ sp
+#: ../content.php:66 ../content.php:132
+msgid "%"
+msgstr "%"
+
+# @ sp
+#: ../header.php:30 ../sp_maintenance.php:33
+#, php-format
+msgid "Page %s"
+msgstr "Sida %s"
+
+# @ sp
+#: ../header.php:100
+msgid "Hello"
+msgstr "Hej"
+
+# @ sp
+# @ woocommerce
+#: ../header.php:100 ../header.php:103 ../woocommerce/checkout/thankyou.php:26
+msgid "My Account"
+msgstr "Mitt Konto"
+
+# @ sp
+#: ../header.php:100
+msgid "Logout"
+msgstr "Logga Ut"
+
+# @ sp
+#: ../header.php:103
+msgid "Log In"
+msgstr "Logga In"
+
+# @ sp
+#: ../header.php:118 ../wpsc-cart_widget.php:65
+msgid "Checkout"
+msgstr "Kassan"
+
+# @ sp
+#: ../header.php:119
+msgid "Items"
+msgstr "Antal"
+
+# @ sp
+# @ woocommerce
+#: ../header.php:136 ../woocommerce/cart/cart.php:29
+#: ../woocommerce/checkout/review-order.php:22
+#: ../woocommerce/myaccount/my-orders.php:30
+msgid "Total"
+msgstr "Totalt"
+
+# @ sp
+#: ../header.php:174 ../sp-also-bought.php:30 ../sp-posts-comments.php:68
+#: ../sp-posts-comments.php:116 ../sp_maintenance.php:55
+#: ../sp-framework/functions/control-panel-modules.php:17
+#: ../sp-framework/functions/control-panel-modules.php:40
+#: ../sp-framework/functions/control-panel-modules.php:175
+#: ../sp-framework/functions/control-panel-modules.php:204
+#: ../sp-framework/functions/control-panel-modules.php:229
+#: ../sp-framework/functions/control-panel-modules.php:246
+#: ../sp-framework/functions/control-panel-modules.php:285
+#: ../sp-framework/functions/control-panel-modules.php:302
+#: ../sp-framework/functions/control-panel-modules.php:347
+#: ../sp-framework/functions/control-panel-modules.php:366
+#: ../sp-framework/functions/control-panel-modules.php:409
+#: ../sp-framework/functions/control-panel-modules.php:428
+#: ../sp-framework/functions/control-panel-modules.php:686
+#: ../sp-framework/functions/control-panel-modules.php:739
+#: ../sp-framework/functions/control-panel-modules.php:766
+#: ../sp-framework/functions/control-panel-modules.php:791
+#: ../sp-framework/functions/control-panel-modules.php:818
+#: ../sp-framework/functions/control-panel-modules.php:892
+#: ../sp-framework/functions/control-panel-modules.php:910
+#: ../sp-framework/functions/control-panel-modules.php:915
+#: ../sp-framework/functions/control-panel-modules.php:935
+#: ../sp-framework/functions/control-panel-modules.php:952
+#: ../sp-framework/functions/control-panel-modules.php:969
+#: ../sp-framework/functions/control-panel-modules.php:986
+#: ../sp-framework/functions/database.php:231
+#: ../sp-framework/functions/database.php:237
+#: ../sp-framework/functions/theme-setup.php:73
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+# @ sp
+#: ../header.php:193 ../sp_maintenance.php:74
+msgid "Your Logo Here"
+msgstr "Din logga här"
+
+# @ sp
+#: ../page.php:15 ../search.php:63
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr "Tyvärr matchar inget in sökning. Försök gärna igen med andra sökord."
+
+# @ sp
+#: ../search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Sökresultat för:: %s"
+
+# @ sp
+#: ../searchform.php:6
+msgid "Search All"
+msgstr "Sök Allt"
+
+# @ sp
+#: ../searchform.php:10 ../searchform.php:19
+msgid "Search Posts"
+msgstr "Sök Inlägg"
+
+# @ sp
+#: ../searchform.php:13 ../searchform.php:22
+msgid "Search Products"
+msgstr "Sök Produkter"
+
+# @ sp
+#: ../sidebar-left.php:14 ../sidebar-right.php:14
+msgid "Meta"
+msgstr "Meta"
+
+# @ sp
+#: ../sp-posts-comments.php:26
+msgid "Read More &gt;"
+msgstr "Läs Mer &gt;"
+
+# @ sp
+#: ../sp-posts-comments.php:72
+#, php-format
+msgid "%1$s <br /> %2$s"
+msgstr "%1$s <br /> %2$s"
+
+# @ sp
+#: ../sp-posts-comments.php:72 ../sp-posts-comments.php:98
+#: ../sp-posts-comments.php:127
+msgid "(Edit)"
+msgstr "(Redigera)"
+
+# @ sp
+#: ../sp-posts-comments.php:80 ../sp-posts-comments.php:120
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar moderator."
+
+# @ sp
+#: ../sp-posts-comments.php:98
+msgid "Pingback:"
+msgstr "Pingback:"
+
+# @ sp
+#: ../sp-posts-comments.php:127
+#, php-format
+msgid "%1$s | %2$s"
+msgstr "%1$s | %2$s"
+
+# @ sp
+#: ../sp-posts-comments.php:150
+#, php-format
+msgid ""
+"<span class=\"calendar-icon\">&nbsp;</span>%1$s <span class=\"meta-sep\">by</"
+"span> %2$s"
+msgstr ""
+"<span class=\"calendar-icon\">&nbsp;</span>%1$s <span class=\"meta-sep\">by</"
+"span> %2$s"
+
+# @ sp
+#: ../sp-posts-comments.php:171
+#, php-format
+msgid ""
+"<span class=\"article-icon\">&nbsp;</span>Posted in %1$s <span class=\"tag-"
+"icon\">&nbsp;</span>Tags %2$s. <span class=\"bookmark-icon\">&nbsp;</"
+"span>Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" data-rel="
+"\"bookmark\">permalink</a>"
+msgstr ""
+"<span class=\"article-icon\">&nbsp;</span>Posted in %1$s <span class=\"tag-"
+"icon\">&nbsp;</span>Tags %2$s. <span class=\"bookmark-icon\">&nbsp;</"
+"span>Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" data-rel="
+"\"bookmark\">permalink</a>"
+
+# @ sp
+#: ../sp-posts-comments.php:173
+#, php-format
+msgid ""
+"<span class=\"article-icon\">&nbsp;</span>Posted in %1$s. <span class="
+"\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" data-rel=\"bookmark\">permalink</a>"
+msgstr ""
+"<span class=\"article-icon\">&nbsp;</span>Posted in %1$s. <span class="
+"\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" data-rel=\"bookmark\">permalink</a>"
+
+# @ sp
+#: ../sp-posts-comments.php:175 ../sp-posts-comments.php:198
+#, php-format
+msgid ""
+"<span class=\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" data-rel=\"bookmark\">permalink</a>"
+msgstr ""
+"<span class=\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" data-rel=\"bookmark\">permalink</a>"
+
+# @ sp
+#: ../sp-posts-comments.php:194
+#, php-format
+msgid ""
+"<span class=\"article-icon\">&nbsp;</span>%1$s <span class=\"tag-icon"
+"\">&nbsp;</span>Tags %2$s."
+msgstr ""
+"<span class=\"article-icon\">&nbsp;</span>%1$s <span class=\"tag-icon"
+"\">&nbsp;</span>Tags %2$s."
+
+# @ sp
+#: ../sp-posts-comments.php:196
+#, php-format
+msgid "<span class=\"article-icon\">&nbsp;</span>%1$s."
+msgstr "<span class=\"article-icon\">&nbsp;</span>%1$s."
+
+# @ sp
+#: ../sp-posts-comments.php:236
+msgid "Related Posts"
+msgstr "Liknande inlägg"
+
+# @ sp
+#: ../sp-posts-comments.php:264
+msgid "<span class=\"arrow\">&lt;</span> Older posts"
+msgstr "<span class=\"arrow\">&lt;</span> Äldre inlägg"
+
+# @ sp
+#: ../sp-posts-comments.php:265
+msgid "Newer posts <span class=\"arrow\">&gt;</span>"
+msgstr "Nyare inlägg <span class=\"arrow\">&gt;</span>"
+
+# @ sp
+#: ../sp-widgets.php:19 ../sp-widgets.php:21
+#, php-format
+msgid "Sidebar (%s) Sitewide"
+msgstr "Sidebar (%s) Sitewide"
+
+# @ sp
+#: ../sp-widgets.php:41 ../sp-widgets.php:43
+#, fuzzy, php-format
+msgid "Sidebar (%s) Page: "
+msgstr "Sidebar (%s) Sitewide"
+
+# @ sp
+#: ../sp-widgets.php:67 ../sp-widgets.php:69
+#, php-format
+msgid "Sidebar (%1$s) Blog Category: %2$s"
+msgstr "Sidebar (%1$s) Blog Category: %2$s"
+
+# @ sp
+#: ../sp-widgets.php:96 ../sp-widgets.php:98
+#, php-format
+msgid "Sidebar (%1$s) Product Cat: %2$s"
+msgstr "Sidebar (%1$s) Product Cat: %2$s"
+
+# @ sp
+#: ../sp-widgets.php:117
+#, php-format
+msgid "Footer Widget %d"
+msgstr "Footer Widget %d"
+
+# @ sp
+#: ../sp-widgets.php:119
+#, php-format
+msgid "Footer Widget Area %d"
+msgstr "Footer Widget Area %d"
+
+# @ sp
+#: ../sp-widgets.php:130
+msgid "Site Top Widget (Promotions)"
+msgstr "Site Top Widget (Promotions)"
+
+# @ sp
+#: ../sp-widgets.php:132
+msgid ""
+"Site Top Widget Area for promotional items to be used in conjunction with SP "
+"Promotional Widget"
+msgstr ""
+"Site Top Widget Area for promotional items to be used in conjunction with SP "
+"Promotional Widget"
+
+# @ sp
+#: ../sp-widgets.php:139
+msgid "Site Bottom Widget (Promotions)"
+msgstr "Site Bottom Widget (Promotions)"
+
+# @ sp
+#: ../sp-widgets.php:141
+msgid ""
+"Site Bottom Widget Area for promotional items to be used in conjunction with "
+"SP Promotional Widget"
+msgstr ""
+"Site Bottom Widget Area for promotional items to be used in conjunction with "
+"SP Promotional Widget"
+
+# @ sp
+#: ../sp-widgets.php:148
+msgid "Page Top Widget (Promotions)"
+msgstr "Page Top Widget (Promotions)"
+
+# @ sp
+#: ../sp-widgets.php:150
+msgid ""
+"Page Top Widget Area for promotional items to be used in conjunction with SP "
+"Promotional Widget"
+msgstr ""
+"Page Top Widget Area for promotional items to be used in conjunction with SP "
+"Promotional Widget"
+
+# @ sp
+#: ../sp-widgets.php:157
+msgid "Page Bottom Widget (Promotions)"
+msgstr "Page Bottom Widget (Promotions)"
+
+# @ sp
+#: ../sp-widgets.php:159
+msgid ""
+"Page Bottom Widget Area for promotional items to be used in conjunction with "
+"SP Promotional Widget"
+msgstr ""
+"Page Bottom Widget Area for promotional items to be used in conjunction with "
+"SP Promotional Widget"
+
+# @ sp
+#: ../sp-woo-home-grid.php:39 ../sp-woo-home-grid.php:130
+#: ../sp-woo-home-grid.php:139 ../sp-wpec-home-grid.php:21
+#: ../sp-wpec-home-grid.php:110 ../sp-wpec-home-grid.php:119
+#: ../wpsc-grid_view.php:90 ../wpsc-products_page.php:96 ../wpsc-search.php:12
+#: ../wpsc-single_product.php:35 ../woocommerce/archive-product.php:88
+#: ../woocommerce/archive-product.php:97 ../woocommerce/content-product.php:36
+#: ../woocommerce/single-product/product-image.php:37
+msgid "Sale"
+msgstr "Rea"
+
+# @ sp
+#: ../sp-woo-home-grid.php:47 ../sp-woo-home-grid.php:72
+#: ../sp-wpec-home-grid.php:29 ../sp-wpec-home-grid.php:57
+#: ../wpsc-grid_view.php:98 ../wpsc-grid_view.php:126 ../wpsc-search.php:20
+#: ../wpsc-search.php:48 ../woocommerce/content-product.php:44
+msgid "UICKVIEW"
+msgstr "UICKVIEW"
+
+# @ sp
+#: ../sp-woo-home-grid.php:62 ../sp-woo-home-grid.php:87
+#: ../sp-woo-home-grid.php:201 ../sp-wpec-home-grid.php:47
+#: ../sp-wpec-home-grid.php:75 ../wpsc-grid_view.php:116
+#: ../wpsc-grid_view.php:144 ../wpsc-list_view.php:154 ../wpsc-search.php:38
+#: ../wpsc-search.php:66 ../woocommerce/archive-product.php:160
+#: ../woocommerce/content-product.php:58
+msgid "More Info"
+msgstr "Mer information"
+
+# @ sp
+#: ../sp-woo-home-grid.php:203 ../sp-wpec-home-grid.php:289
+#: ../wpsc-grid_view.php:381 ../wpsc-search.php:292
+#: ../woocommerce/archive-product.php:162
+msgid "Close"
+msgstr "Stäng"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:86 ../sp-wpec-home-grid.php:294
+#: ../wpsc-grid_view.php:173 ../wpsc-list_view.php:179
+#: ../wpsc-products_page.php:256
+msgid "There are no products in this group."
+msgstr "Det finns inga produkter i den här gruppen."
+
+# @ sp
+# @ woocommerce
+#: ../sp-wpec-home-grid.php:209 ../wpsc-grid_view.php:301
+#: ../wpsc-list_view.php:137 ../wpsc-products_page.php:166
+#: ../wpsc-search.php:212 ../wpsc-single_product.php:136
+#: ../woocommerce/cart/cart.php:28
+msgid "Quantity"
+msgstr "Antal"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:220 ../wpsc-grid_view.php:312
+#: ../wpsc-list_view.php:110 ../wpsc-products_page.php:176
+#: ../wpsc-search.php:223 ../wpsc-single_product.php:147
+msgid "Product in stock"
+msgstr "Produkt finns i lager"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:222 ../wpsc-grid_view.php:314
+#: ../wpsc-list_view.php:112 ../wpsc-products_page.php:178
+#: ../wpsc-search.php:225 ../wpsc-single_product.php:149
+msgid "Product not in stock"
+msgstr "Produkt finns inte i lager"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:226 ../wpsc-grid_view.php:318
+#: ../wpsc-products_page.php:182 ../wpsc-search.php:229
+#: ../wpsc-single_product.php:153
+msgid "Donation"
+msgstr "Donation"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:231 ../wpsc-grid_view.php:323
+#: ../wpsc-products_page.php:187 ../wpsc-search.php:234
+#: ../wpsc-single_product.php:158
+msgid "Old Price"
+msgstr "Tidgare Pris"
+
+# @ sp
+# @ woocommerce
+#: ../sp-wpec-home-grid.php:233 ../wpsc-cart_widget.php:15
+#: ../wpsc-grid_view.php:325 ../wpsc-products_page.php:189
+#: ../wpsc-search.php:236 ../wpsc-single_product.php:160
+#: ../woocommerce/cart/cart.php:27
+msgid "Price"
+msgstr "Pris"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:235 ../wpsc-grid_view.php:327
+#: ../wpsc-products_page.php:191 ../wpsc-search.php:238
+#: ../wpsc-single_product.php:162
+msgid "You save"
+msgstr "Du sparar"
+
+# @ sp
+# @ woocommerce
+#: ../sp-wpec-home-grid.php:244 ../wpsc-grid_view.php:336
+#: ../wpsc-products_page.php:200 ../wpsc-search.php:247
+#: ../wpsc-single_product.php:171 ../woocommerce/checkout/review-order.php:45
+msgid "Shipping"
+msgstr "Frakt"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:258 ../sp_home.php:48 ../sp_home.php:163
+#: ../wpsc-grid_view.php:350 ../wpsc-list_view.php:151
+#: ../wpsc-products_page.php:214 ../wpsc-search.php:261
+#: ../wpsc-single_product.php:185
+msgid "Buy Now"
+msgstr "Köp Nu"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:260 ../wpsc-grid_view.php:352
+#: ../wpsc-list_view.php:156 ../wpsc-products_page.php:216
+#: ../wpsc-search.php:263 ../wpsc-single_product.php:187
+msgid "Add To Cart"
+msgstr "Lägg i varukorgen"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:261 ../wpsc-grid_view.php:353
+#: ../wpsc-products_page.php:217 ../wpsc-search.php:264
+#: ../wpsc-single_product.php:188
+msgid "Please select product options before adding to cart"
+msgstr "Välj ett produktalternativ innan du lägger i varukorgen"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:262 ../wpsc-grid_view.php:354
+#: ../wpsc-list_view.php:157 ../wpsc-products_page.php:218
+#: ../wpsc-search.php:265 ../wpsc-single_product.php:189
+msgid "Item has been added to your cart!"
+msgstr "Produkten har lagts i din varukorg!"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:277 ../wpsc-grid_view.php:369
+#: ../wpsc-products_page.php:239 ../wpsc-search.php:280
+msgid "More"
+msgstr "Mer"
+
+# @ sp
+#: ../sp-wpec-home-grid.php:277 ../wpsc-grid_view.php:369
+#: ../wpsc-products_page.php:239 ../wpsc-search.php:280
+msgid "MORE INFO"
+msgstr "MER INFO"
+
+# @ sp
+#: ../sp_maintenance.php:81
+msgid "Maintenance In Progress"
+msgstr "Underhåll på gång"
+
+# @ sp
+#: ../sp_maintenance.php:93
+msgid "Follow Us on Twitter"
+msgstr "Följ oss på Twitter"
+
+# @ sp
+#: ../tag.php:17
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Tag Arkiv: %s"
+
+# @ woocommerce
+# @ sp
+#: ../wpsc-cart_widget.php:13 ../woocommerce/cart/cart.php:26
+#: ../woocommerce/checkout/form-pay.php:12
+#: ../woocommerce/checkout/review-order.php:21
+msgid "Product"
+msgstr "Produkt"
+
+# @ woocommerce
+# @ sp
+#: ../wpsc-cart_widget.php:14 ../woocommerce/checkout/form-pay.php:13
+msgid "Qty"
+msgstr "Antal"
+
+# @ sp
+#: ../wpsc-cart_widget.php:50
+#, fuzzy, php-format
+msgid "%d item"
+msgstr "%d item"
+
+# @ sp
+#: ../wpsc-cart_widget.php:53
+msgid "Sub Total"
+msgstr "Delsumma"
+
+# @ sp
+#: ../wpsc-cart_widget.php:59
+msgid "Postage &amp; Tax "
+msgstr "Frakt &amp; Moms "
+
+# @ sp
+#: ../wpsc-cart_widget.php:65
+msgid "CheckOut"
+msgstr "Kassan"
+
+# @ sp
+#: ../wpsc-cart_widget.php:68
+msgid "Empty Your Cart"
+msgstr "Töm Din Varukorg"
+
+# @ sp
+#: ../wpsc-cart_widget.php:68
+msgid "Clear cart"
+msgstr "Töm varukorgen"
+
+# @ woocommerce
+# @ sp
+#: ../wpsc-cart_widget.php:84 ../sp-framework/functions/woo-functions.php:366
+#: ../sp-framework/functions/woo-functions.php:452
+msgid "Your shopping cart is empty"
+msgstr "Det finns inget i din varukorg"
+
+# @ sp
+#: ../wpsc-featured_product.php:46
+msgid "More Details"
+msgstr "Mer Detaljer"
+
+# @ sp
+#: ../wpsc-grid_view.php:32 ../wpsc-list_view.php:32
+#: ../wpsc-products_page.php:33
+msgid "Categories"
+msgstr "Kategorier"
+
+# @ sp
+#: ../wpsc-list_view.php:166
+msgid "This product has sold out."
+msgstr "Denna produkt är slutsåld."
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:18
+msgid "Oops, there is nothing in your cart."
+msgstr "Hoppsan, din varukorg är tom."
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:18
+msgid "Please visit our shop"
+msgstr "Besök vår shop."
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:48
+msgid "Sub-Total:"
+msgstr "Delsumma:"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:51
+msgid "Product:"
+msgstr "Produkt:"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:52
+msgid "Quantity:"
+msgstr "Antal:"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:53
+msgid "Price:"
+msgstr "Pris:"
+
+# @ woocommerce
+# @ sp
+#: ../wpsc-shopping_cart_page.php:54 ../woocommerce/checkout/thankyou.php:54
+msgid "Total:"
+msgstr "Total"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:100 ../wpsc-shopping_cart_page.php:132
+msgid "Update"
+msgstr "Uppdatera"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:112
+msgid "Remove"
+msgstr "Ta bort"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:125
+msgid "Coupon is not valid."
+msgstr "Kupongen är inte giltig."
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:130
+msgid "Enter coupon code :"
+msgstr "Skriv in kupongkoden :"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:143
+msgid "Continue"
+msgstr "Fortsätt"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:166
+msgid "Calculate Shipping Price"
+msgstr "Kalkylera Fraktpris"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:170
+msgid "Please specify shipping location below to calculate your shipping costs"
+msgstr "Var vänlig ange leveransadress nedan för att kalkylera ditt fraktpris"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:178
+msgid "Please provide a Zipcode and click Calculate in order to continue."
+msgstr ""
+"Var vänlig ange ditt postnummer och klicka på Kalkylera för att fortsätta."
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:184
+msgid ""
+"Sorry, online ordering is unavailable to this destination and/or weight. "
+"Please double check your destination details."
+msgstr ""
+"Beklagar, men online order är inte möjlig för den adressen och/eller vikten. "
+"Var god dubbelkolla din leveransadress."
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:202
+msgid " - Choose a Shipping Rate"
+msgstr " - Välj ett Fraktpris"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:249
+msgid "You must sign in or register with us to continue with your purchase."
+msgstr ""
+"Du måste logga in eller registrera dig hos oss för att fortsätta med ditt "
+"inköp."
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:251
+msgid "If you have bought from us before please sign in for a speedy checkout."
+msgstr ""
+"Om du har handlat från oss tidigare kan du logga in för en snabbare "
+"utcheckning."
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:254
+msgid "Sign in"
+msgstr "Registrera dig"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:272
+msgid "Signing up is free and easy!"
+msgstr "Registrering är gratis och enkelt!"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:273
+msgid "Join up now"
+msgstr "Registrera dig nu"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:275
+#: ../sp-framework/functions/custom-login.php:109
+msgid "Username:"
+msgstr "Användarnamn:"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:278
+#: ../sp-framework/functions/custom-login.php:113
+msgid "Password:"
+msgstr "Lösenord:"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:281
+msgid "E-mail"
+msgstr "E-mail"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:354
+msgid "Same as billing address:"
+msgstr "Samma som betalningsadress:"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:356
+msgid "Your order will be shipped to the billing address"
+msgstr "Din order skinks till betalningsadressen"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:400
+msgid "Enter your email address"
+msgstr "Skriv din email-adress"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:436
+msgid "How did you find us"
+msgstr "Hur hittade du oss"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:439
+msgid "Word of mouth"
+msgstr "Mun till mun"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:440
+msgid "Advertising"
+msgstr "Reklam"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:441
+msgid "Internet"
+msgstr "Internet"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:442
+msgid "Existing Customer"
+msgstr "Tidigare Kund"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:453
+msgid "Payment Type"
+msgstr "Typ av betalning"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:488
+#, php-format
+msgid ""
+"I agree to the <a class='thickbox terms_lightbox' target='_blank' "
+"href='%s'>Terms and Conditions</a>"
+msgstr ""
+"Jag godkänner <a class='thickbox terms_lightbox' target='_blank' "
+"href='%s'>Villkor</a>"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:498
+#: ../woocommerce/checkout/review-order.php:189
+msgid "SECURED CHECKOUT"
+msgstr "SÄKER KASSA"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:517
+msgid "Review and purchase"
+msgstr "Kontrollera och köp"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:525
+msgid "Total Shipping:"
+msgstr "Total Frakt:"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:534
+msgid "Item Cost:"
+msgstr "Produktkostnad:"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:557
+msgid "Discount:"
+msgstr "Rabatt:"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:567
+msgid "Total Price"
+msgstr "Totalpris"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:575
+msgid "Go Back"
+msgstr "Gå tillbaka"
+
+# @ sp
+#: ../wpsc-shopping_cart_page.php:583
+msgid "Purchase"
+msgstr "Köp"
+
+# @ wpsc
+#: ../wpsc-single_product.php:94
+msgid "Personalize Your Product"
+msgstr "Gör din produkt personlig"
+
+# @ wpsc
+#: ../wpsc-single_product.php:95
+msgid ""
+"Complete this form to include a personalized message with your purchase."
+msgstr ""
+"Fyll i det här formuläret för att skicka ett personligt meddelande med ditt "
+"inköp."
+
+# @ wpsc
+#: ../wpsc-single_product.php:103
+msgid "Upload a File"
+msgstr "Ladda upp en fil"
+
+# @ wpsc
+#: ../wpsc-single_product.php:104
+msgid "Select a file from your computer to include with this purchase."
+msgstr "Välj en fil från din dator för att inkludera till detta inköp."
+
+# @ woocommerce
+# @ sp
+#: ../wpsc-single_product.php:257 ../wpsc-single_product.php:272
+#: ../woocommerce/checkout/form-shipping.php:52
+#: ../woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr "Ytterligare information"
+
+#: ../wpsc-user-log.php:31
+msgid ""
+"You must be logged in to use this page. Please use the form below to login "
+"to your account."
+msgstr ""
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:28
+#: ../sp-framework/functions/class-widgets.php:37
+msgid "SP Product Category"
+msgstr "SP Product Category"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:31
+msgid ""
+"Custom SP widget to display WPEC product categories in an accordion fashion"
+msgstr ""
+"Custom SP widget to display WPEC product categories in an accordion fashion"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:123
+msgid "Show Categories"
+msgstr "Show Categories"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:125
+msgid "(leave all unchecked if you want to display all)"
+msgstr "(leave all unchecked if you want to display all)"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:129
+#: ../sp-framework/functions/class-widgets.php:237
+msgid "Title:"
+msgstr "Title:"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:134
+msgid "Show Product Count in Category"
+msgstr "Show Product Count in Category"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:150
+msgid "Custom SP widget to filter WPEC products in a price range slider."
+msgstr "Custom SP widget to filter WPEC products in a price range slider."
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:211
+msgid "Filter"
+msgstr "Filter"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:253
+msgid "Custom SP widget to display any promotional items."
+msgstr "Custom SP widget to display any promotional items."
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:312
+msgid "Select Time Zone:"
+msgstr "Select Time Zone:"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:316
+msgid "--Please Select--"
+msgstr "--Please Select--"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:328
+msgid "Select Start Time:"
+msgstr "Select Start Time:"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:329
+msgid "Select the time you want to start displaying this widget"
+msgstr "Select the time you want to start displaying this widget"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:333
+msgid "Select End Time:"
+msgstr "Select End Time:"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:334
+msgid "Select the time you want to stop displaying this widget"
+msgstr "Select the time you want to stop displaying this widget"
+
+# @ sp
+#: ../sp-framework/functions/class-widgets.php:338
+msgid "Content:"
+msgstr "Content:"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:19
+#: ../sp-framework/functions/control-panel-modules.php:42
+#: ../sp-framework/functions/control-panel-modules.php:111
+msgid "Upload"
+msgstr "Upload"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:23
+#: ../sp-framework/functions/control-panel-modules.php:54
+#: ../sp-framework/functions/control-panel-modules.php:123
+msgid "Current Image:"
+msgstr "Current Image:"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:25
+#: ../sp-framework/functions/control-panel-modules.php:85
+#: ../sp-framework/functions/control-panel-modules.php:151
+msgid "Remove current image"
+msgstr "Remove current image"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:109
+msgid "Slide Image"
+msgstr "Slide Image"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:110
+msgid "Upload the image you want to feature for this slide."
+msgstr "Upload the image you want to feature for this slide."
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:152
+msgid "Slide Title"
+msgstr "Slide Title"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:153
+msgid "Enter the title you want for this slide."
+msgstr "Enter the title you want for this slide."
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:154
+msgid "Slide Text"
+msgstr "Slide Text"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:155
+msgid ""
+"Enter the description you want for this slide. (note: long text will be "
+"automatically trimmed to retain style dimensions)"
+msgstr ""
+"Enter the description you want for this slide. (note: long text will be "
+"automatically trimmed to retain style dimensions)"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:156
+msgid "Slide Link"
+msgstr "Slide Link"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:157
+msgid "Enter the link you want the slide to direct to."
+msgstr "Enter the link you want the slide to direct to."
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:158
+msgid "Slide Link Text"
+msgstr "Slide Link Text"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:223
+msgid ""
+"You can add new custom widgets here per page.  This will allow you to have "
+"different widgets depending on the page you're on.  Once you have generated "
+"all the widgets, you will see new widget containers"
+msgstr ""
+"You can add new custom widgets here per page.  This will allow you to have "
+"different widgets depending on the page you're on.  Once you have generated "
+"all the widgets, you will see new widget containers"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:223
+#: ../sp-framework/functions/control-panel-modules.php:279
+#: ../sp-framework/functions/control-panel-modules.php:341
+#: ../sp-framework/functions/control-panel-modules.php:403
+msgid "here"
+msgstr "here"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:233
+#: ../sp-framework/functions/control-panel-modules.php:250
+msgid "Select a Page"
+msgstr "Select a Page"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:241
+#: ../sp-framework/functions/control-panel-modules.php:314
+#: ../sp-framework/functions/control-panel-modules.php:359
+#: ../sp-framework/functions/control-panel-modules.php:376
+#: ../sp-framework/functions/control-panel-modules.php:421
+#: ../sp-framework/functions/control-panel-modules.php:438
+msgid "Delete"
+msgstr "Delete"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:279
+msgid ""
+"You can add new custom widgets here per blog category.  This will allow you "
+"to have different widgets depending on the category you're on.  Once you "
+"have generated all the widgets, you will see new widget containers"
+msgstr ""
+"You can add new custom widgets here per blog category.  This will allow you "
+"to have different widgets depending on the category you're on.  Once you "
+"have generated all the widgets, you will see new widget containers"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:289
+#: ../sp-framework/functions/control-panel-modules.php:306
+#: ../sp-framework/functions/control-panel-modules.php:351
+#: ../sp-framework/functions/control-panel-modules.php:369
+#: ../sp-framework/functions/control-panel-modules.php:413
+#: ../sp-framework/functions/control-panel-modules.php:431
+msgid "Select a Category"
+msgstr "Select a Category"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:341
+#: ../sp-framework/functions/control-panel-modules.php:403
+msgid ""
+"You can add new custom widgets here per product category page.  This will "
+"allow you to have different widgets depending on the product category page "
+"you're on.  Once you have generated all the widgets, you will see new widget "
+"containers"
+msgstr ""
+"You can add new custom widgets here per product category page.  This will "
+"allow you to have different widgets depending on the product category page "
+"you're on.  Once you have generated all the widgets, you will see new widget "
+"containers"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:661
+msgid "No Custom Background"
+msgstr "No Custom Background"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:661
+msgid "Upload Custom Background"
+msgstr "Upload Custom Background"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:854
+msgid "Edit Maintenance Page"
+msgstr "Edit Maintenance Page"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:867
+msgid "Here is a rough preview of what your styles look like."
+msgstr "Here is a rough preview of what your styles look like."
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:870
+msgid "This is a heading"
+msgstr "This is a heading"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:871
+msgid "This is a heading with link"
+msgstr "This is a heading with link"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:872
+msgid "This is a heading with link on hover"
+msgstr "This is a heading with link on hover"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:874
+msgid "This is the link color"
+msgstr "This is the link color"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:875
+msgid "This is the link color on hover"
+msgstr "This is the link color on hover"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:893
+msgid "Reset All Settings"
+msgstr "Reset All Settings"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:916
+msgid "Create Page"
+msgstr "Create Page"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:936
+msgid "Export Settings"
+msgstr "Export Settings"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:953
+msgid "Import Settings"
+msgstr "Import Settings"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:970
+msgid "Clear Cache Folder"
+msgstr "Clear Cache Folder"
+
+# @ sp
+#: ../sp-framework/functions/control-panel-modules.php:987
+msgid "Clear Star Ratings"
+msgstr "Clear Star Ratings"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:83
+msgid "insert media"
+msgstr "insert media"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:85
+msgid ""
+"This will overwrite all your settings.  Are you sure you want to import the "
+"theme settings from your last exported state?"
+msgstr ""
+"This will overwrite all your settings.  Are you sure you want to import the "
+"theme settings from your last exported state?"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:86
+msgid ""
+"If you disable this message, you will no longer receive update notices for "
+"any future updates available.  Are you sure?"
+msgstr ""
+"If you disable this message, you will no longer receive update notices for "
+"any future updates available.  Are you sure?"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:87
+msgid "Are you sure you want to reset to theme default settings?"
+msgstr "Are you sure you want to reset to theme default settings?"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:88
+msgid "Are you sure you want to empty the image cache folder?"
+msgstr "Are you sure you want to empty the image cache folder?"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:89
+msgid "Are you sure you want to clear ALL product star ratings?"
+msgstr "Are you sure you want to clear ALL product star ratings?"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:90
+msgid "Your image is uploaded, please click on \"Save All\""
+msgstr "Your image is uploaded, please click on \"Save All\""
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:100
+msgid ""
+"You have selected a Portfolio Template.  To enable portfolio page options, "
+"please save the entry once with publish or save draft."
+msgstr ""
+"You have selected a Portfolio Template.  To enable portfolio page options, "
+"please save the entry once with publish or save draft."
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:100
+msgid "This function has been disabled as it is not necessary with SP themes"
+msgstr "This function has been disabled as it is not necessary with SP themes"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:140
+msgid "GENERAL"
+msgstr "GENERAL"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:140
+#: ../sp-framework/functions/control-panel.php:146
+#: ../sp-framework/functions/control-panel.php:152
+msgid "settings"
+msgstr "settings"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:141
+msgid "STYLING"
+msgstr "STYLING"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:141
+msgid "options"
+msgstr "options"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:154
+msgid "HELP?"
+msgstr "HELP?"
+
+# @ sp
+#: ../sp-framework/functions/control-panel.php:478
+msgid "For more support, please go to our site support forums."
+msgstr "For more support, please go to our site support forums."
+
+# @ sp
+#: ../sp-framework/functions/custom-login.php:43
+msgid "Please enter your username and password."
+msgstr "Please enter your username and password."
+
+# @ sp
+#: ../sp-framework/functions/custom-login.php:79
+msgid "User does not exist!"
+msgstr "User does not exist!"
+
+# @ sp
+#: ../sp-framework/functions/custom-login.php:119
+msgid "Remember me"
+msgstr "Remember me"
+
+# @ sp
+#: ../sp-framework/functions/custom-login.php:129
+#: ../sp-framework/functions/custom-login.php:147
+msgid "Checking Credentials"
+msgstr "Checking Credentials"
+
+# @ sp
+#: ../sp-framework/functions/custom-login.php:136
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+
+# @ sp
+#: ../sp-framework/functions/custom-login.php:139
+msgid "Username or E-mail:"
+msgstr "Username or E-mail:"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:16
+#: ../sp-framework/functions/custom-meta-boxes.php:24
+msgid "SP WP Auto Formating"
+msgstr "SP WP Auto Formating"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:32
+msgid "SP Excerpt Truncate"
+msgstr "SP Excerpt Truncate"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:40
+msgid "SP Variation Image Swap"
+msgstr "SP Variation Image Swap"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:48
+msgid "SP Page Layout"
+msgstr "SP Page Layout"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:56
+msgid "SP Post Layout"
+msgstr "SP Post Layout"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:64
+msgid "SP Portfolio Layout"
+msgstr "SP Portfolio Layout"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:72
+msgid "SP Portfolio Image Sizes"
+msgstr "SP Portfolio Image Sizes"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:86
+msgid "SP Portfolio Options"
+msgstr "SP Portfolio Options"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:101
+msgid "Homepage Alternate Textarea"
+msgstr "Homepage Alternate Textarea"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:111
+msgid "Homepage Layout v2"
+msgstr "Homepage Layout v2"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:132
+msgid "Disable WP Auto Content Formatting:"
+msgstr "Disable WP Auto Content Formatting:"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:132
+msgid ""
+"When disabled, it will prevent Wordpress from automatically injecting break "
+"and paragraph tags which can cause some layout issues.  Mostly used when you "
+"are using HTML mode and want fine control."
+msgstr ""
+"When disabled, it will prevent Wordpress from automatically injecting break "
+"and paragraph tags which can cause some layout issues.  Mostly used when you "
+"are using HTML mode and want fine control."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:148
+msgid "Disable Truncate Function:"
+msgstr "Disable Truncate Function:"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:148
+msgid "Checkbox to disable the auto text truncate function for this post."
+msgstr "Checkbox to disable the auto text truncate function for this post."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:150
+msgid ""
+"This allows you to set the number of characters you want to display in the "
+"blog post listings."
+msgstr ""
+"This allows you to set the number of characters you want to display in the "
+"blog post listings."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:151
+msgid "Characters to Show:"
+msgstr "Characters to Show:"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:151
+msgid ""
+"This is used so that in the blog listing view, your blog post content will "
+"not overflow and be too long. This serves as an excerpt."
+msgstr ""
+"This is used so that in the blog listing view, your blog post content will "
+"not overflow and be too long. This serves as an excerpt."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:152
+msgid "The Denote Character to Use:"
+msgstr "The Denote Character to Use:"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:152
+msgid ""
+"This character denotation is used to signify there are more text to be "
+"displayed."
+msgstr ""
+"This character denotation is used to signify there are more text to be "
+"displayed."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:153
+msgid "Precision Truncate:"
+msgstr "Precision Truncate:"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:153
+msgid ""
+"Turning this on means it will cut off the text exactly at the characters you "
+"set above.  If you leave it off, it will automatically estimate where the "
+"word should be cut off to prevent cutting a word in half."
+msgstr ""
+"Turning this on means it will cut off the text exactly at the characters you "
+"set above.  If you leave it off, it will automatically estimate where the "
+"word should be cut off to prevent cutting a word in half."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:167
+msgid "Disable Variation Image Swap:"
+msgstr "Disable Variation Image Swap:"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:167
+msgid ""
+"Check box to disable image swap for this product only.  This is to override "
+"the global image swap settings in your theme options."
+msgstr ""
+"Check box to disable image swap for this product only.  This is to override "
+"the global image swap settings in your theme options."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:183
+msgid "Use the page layout settings to override the global settings"
+msgstr "Use the page layout settings to override the global settings"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:185
+msgid "Use Default"
+msgstr "Use Default"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:186
+msgid "Sidebar Left"
+msgstr "Sidebar Left"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:187
+msgid "Sidebar Right"
+msgstr "Sidebar Right"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:188
+msgid "Both Sidebars"
+msgstr "Both Sidebars"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:189
+msgid "No Sidebars"
+msgstr "No Sidebars"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:191
+msgid "Disable Sitewide Sidebar Widgets for this Page: "
+msgstr "Disable Sitewide Sidebar Widgets for this Page: "
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:208
+msgid "Use the post layout settings to override the global settings"
+msgstr "Use the post layout settings to override the global settings"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:216
+msgid "Disable Sitewide Sidebar Widgets for this Post: "
+msgstr "Disable Sitewide Sidebar Widgets for this Post: "
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:233
+msgid ""
+"Use the portfolio layout settings to override the global settings. For "
+"single view."
+msgstr ""
+"Use the portfolio layout settings to override the global settings. For "
+"single view."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:241
+msgid "Disable Sitewide Sidebar Widgets for this Portfolio: "
+msgstr "Disable Sitewide Sidebar Widgets for this Portfolio: "
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:275
+msgid "Set the portfolio image sizes for list view and single view."
+msgstr "Set the portfolio image sizes for list view and single view."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:277
+msgid "Listing View Image Width (format: 300)"
+msgstr "Listing View Image Width (format: 300)"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:280
+msgid "Listing View Image Height (format: 300)"
+msgstr "Listing View Image Height (format: 300)"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:283
+msgid "Single View Image Width (format: 300)"
+msgstr "Single View Image Width (format: 300)"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:286
+msgid "Single View Image Height (format: 300)"
+msgstr "Single View Image Height (format: 300)"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:298
+msgid "Use below settings to customize this portfolio page."
+msgstr "Use below settings to customize this portfolio page."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:299
+msgid "Select the Portfolio Category"
+msgstr "Select the Portfolio Category"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:313
+#: ../sp-framework/functions/custom-meta-boxes.php:324
+msgid "Please Select"
+msgstr "Please Select"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:322
+msgid "Select the number of columns to display"
+msgstr "Select the number of columns to display"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:325
+msgid "1 Column"
+msgstr "1 Column"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:326
+msgid "2 Columns"
+msgstr "2 Columns"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:327
+msgid "3 Columns"
+msgstr "3 Columns"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:328
+msgid "4 Columns"
+msgstr "4 Columns"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:330
+msgid "Enter the number of entries per page to display"
+msgstr "Enter the number of entries per page to display"
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:334
+msgid "Turn on sortable feature. "
+msgstr "Turn on sortable feature. "
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:334
+msgid "This will take your entry tags and list them as sortable items."
+msgstr "This will take your entry tags and list them as sortable items."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:337
+msgid "Turn on show title."
+msgstr "Turn on show title."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:337
+msgid "This will display the title of your portfolio entry."
+msgstr "This will display the title of your portfolio entry."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:340
+msgid "Turn on show excerpt."
+msgstr "Turn on show excerpt."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:340
+msgid "This will display a text excerpt of your portfolio entry if set."
+msgstr "This will display a text excerpt of your portfolio entry if set."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:343
+msgid "Turn on gallery only."
+msgstr "Turn on gallery only."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:343
+msgid ""
+"This will display your portfolio in a gallery only fashion where detailed "
+"portfolio entry is disabled.  Clicking on the images in the gallery will "
+"open a lightbox instead of going to the detailed entry view."
+msgstr ""
+"This will display your portfolio in a gallery only fashion where detailed "
+"portfolio entry is disabled.  Clicking on the images in the gallery will "
+"open a lightbox instead of going to the detailed entry view."
+
+# @ sp
+#: ../sp-framework/functions/custom-meta-boxes.php:354
+msgid "Type your alternate text here"
+msgstr "Type your alternate text here"
+
+# @ sp
+#: ../sp-framework/functions/custom-post-types.php:27
+#, fuzzy
+msgid "Portfolio Entries"
+msgstr "Search Portfolio Entries"
+
+# @ sp
+#: ../sp-framework/functions/custom-post-types.php:28
+#, fuzzy
+msgid "Portfolio Entry"
+msgstr "New Portfolio Entry"
+
+# @ woocommerce
+#: ../sp-framework/functions/custom-post-types.php:29
+#, fuzzy
+msgid "Add New"
+msgstr "Lämna recension"
+
+# @ sp
+#: ../sp-framework/functions/custom-post-types.php:30
+msgid "Add New Portfolio Entry"
+msgstr "Add New Portfolio Entry"
+
+# @ sp
+#: ../sp-framework/functions/custom-post-types.php:31
+msgid "Edit Portfolio Entry"
+msgstr "Edit Portfolio Entry"
+
+# @ sp
+#: ../sp-framework/functions/custom-post-types.php:32
+msgid "New Portfolio Entry"
+msgstr "New Portfolio Entry"
+
+# @ sp
+#: ../sp-framework/functions/custom-post-types.php:33
+msgid "View Portfolio Entry"
+msgstr "View Portfolio Entry"
+
+# @ sp
+#: ../sp-framework/functions/custom-post-types.php:34
+msgid "Search Portfolio Entries"
+msgstr "Search Portfolio Entries"
+
+# @ sp
+#: ../sp-framework/functions/custom-post-types.php:35
+msgid "No Portfolio Entries found"
+msgstr "No Portfolio Entries found"
+
+# @ sp
+#: ../sp-framework/functions/custom-post-types.php:36
+msgid "No Portfolio Entries found in Trash"
+msgstr "No Portfolio Entries found in Trash"
+
+# @ sp
+#: ../sp-framework/functions/social-media-icons.php:23
+msgid "Join Us on Facebook"
+msgstr "Följ oss på Facebook"
+
+# @ sp
+#: ../sp-framework/functions/social-media-icons.php:27
+msgid "Follow our Tweets"
+msgstr "Följ våra Tweets"
+
+# @ sp
+#: ../sp-framework/functions/social-media-icons.php:31
+msgid "Follow our Pins"
+msgstr "Följ våra Pins"
+
+# @ sp
+#: ../sp-framework/functions/social-media-icons.php:35
+msgid "Checkout our Flickr Photos"
+msgstr "Kolla in våra Flickr foton"
+
+# @ sp
+#: ../sp-framework/functions/social-media-icons.php:39
+msgid "Checkout our Google Plus Profile"
+msgstr "Kolla vår Google Plus profil"
+
+# @ sp
+#: ../sp-framework/functions/social-media-icons.php:43
+msgid "Checkout our YouTube Videos"
+msgstr "Kolla in våra YouTube videos"
+
+# @ sp
+#: ../sp-framework/functions/social-media-icons.php:47
+msgid "Get Fed on our Feeds"
+msgstr "Få våra Feeds"
+
+# @ sp
+#: ../sp-framework/functions/theme-scripts.php:89
+msgid "Reset e-mail sent!"
+msgstr "Återställ skickat e-mail!"
+
+# @ sp
+#: ../sp-framework/functions/theme-scripts.php:90
+msgid "Go to..."
+msgstr "Gå till..."
+
+# @ sp
+#: ../sp-framework/functions/utils.php:61
+#, php-format
+msgid "There is a new version of your theme available (%s). Please visit"
+msgstr "There is a new version of your theme available (%s). Please visit"
+
+# @ sp
+#: ../sp-framework/functions/utils.php:61
+msgid "To disable this message permanently"
+msgstr "To disable this message permanently"
+
+# @ sp
+#: ../sp-framework/functions/utils.php:61
+#: ../sp-framework/functions/utils.php:70
+msgid "click here"
+msgstr "click here"
+
+# @ sp
+#: ../sp-framework/functions/utils.php:70
+#, php-format
+msgid "There is a new version of SP Framework available (%s). Please visit"
+msgstr "There is a new version of SP Framework available (%s). Please visit"
+
+# @ sp
+#: ../sp-framework/functions/utils.php:70
+msgid "to download."
+msgstr "att ladda ned."
+
+# @ sp
+#: ../sp-framework/functions/utils.php:70
+msgid "(ChangeLog)"
+msgstr "(ChangeLog)"
+
+# @ sp
+#: ../sp-framework/functions/utils.php:70
+msgid "(To disable this message permanently"
+msgstr "(För att ta bort detta meddelande permanent"
+
+# @ woocommerce
+#: ../sp-framework/functions/woo-functions.php:340
+#: ../sp-framework/functions/woo-functions.php:426
+msgid "Cart"
+msgstr "Varukorg"
+
+# @ woocommerce
+#: ../sp-framework/functions/woo-functions.php:371
+#: ../sp-framework/functions/woo-functions.php:457
+#: ../woocommerce/checkout/review-order.php:93
+msgid "Subtotal"
+msgstr "Delsumma"
+
+# @ woocommerce
+#: ../sp-framework/functions/woo-functions.php:375
+#: ../sp-framework/functions/woo-functions.php:461
+msgid "View Cart &rarr;"
+msgstr "Se varukorg &rarr;"
+
+#: ../sp-framework/functions/woo-functions.php:410
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:412
+msgid "WooCommerce Cart"
+msgstr ""
+
+# @ woocommerce
+#: ../sp-framework/functions/woo-functions.php:513
+#: ../woocommerce/single-product-reviews.php:29
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Betyg %s av 5"
+
+# @ woocommerce
+#: ../sp-framework/functions/woo-functions.php:513
+#: ../woocommerce/single-product-reviews.php:29
+#: ../woocommerce/single-product/review.php:18
+msgid "out of 5"
+msgstr "av 5"
+
+# @ sp
+#: ../sp-framework/functions/wpec-functions.php:84
+msgid "More Info &gt;"
+msgstr "Mer Info &gt;"
+
+# @ sp
+#: ../sp-framework/functions/wpec-functions.php:173
+msgid "Sorry, you already rated!"
+msgstr "Sorry, du har redan satt betyg!"
+
+# @ sp
+#: ../sp-framework/functions/wpec-functions.php:195
+msgid "Thanks for rating!"
+msgstr "Tack för din betygsättning!"
+
+# @ sp
+#: ../sp-framework/functions/wpec-functions.php:502
+#, php-format
+msgid " from %s"
+msgstr " från %s"
+
+# @ sp
+#: ../sp-framework/functions/wpec-functions.php:573
+msgid "Grid View"
+msgstr "Rutnätsvy"
+
+# @ sp
+#: ../sp-framework/functions/wpec-functions.php:573
+msgid "Grid"
+msgstr "Rutnät"
+
+# @ sp
+#: ../sp-framework/functions/wpec-functions.php:574
+msgid "Default View"
+msgstr "Default vy"
+
+# @ sp
+#: ../sp-framework/functions/wpec-functions.php:574
+msgid "Default"
+msgstr "Default"
+
+# @ woocommerce
+#: ../woocommerce/archive-product.php:27
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr "Sökresultat: &ldquo;%s&rdquo;"
+
+# @ woocommerce
+#: ../woocommerce/archive-product.php:29
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr "&nbsp;&ndash; Sida %s"
+
+# @ sp
+#: ../woocommerce/archive-product.php:52
+msgid "Quick Category Change"
+msgstr "Snabbkategori byte"
+
+# @ woocommerce
+#: ../woocommerce/archive-product.php:173 ../woocommerce/loop-shop.php:36
+msgid "No products found which match your selection."
+msgstr "Inga produkter hittades som matchar ditt val."
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:31
+#, php-format
+msgid "%s review for %s"
+msgstr ""
+
+# @ sp
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr "Recensioner"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:53
+#: ../woocommerce/loop/pagination.php:13
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Föregående"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:54
+#: ../woocommerce/loop/pagination.php:12
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nästa <span class=\"meta-nav\">&rarr;</span>"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:58
+msgid "Add Review"
+msgstr "Lämna recension"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr "Lämna en recension"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:64
+msgid "Be the first to review"
+msgstr "Bli den första att recensera"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:66
+msgid ""
+"There are no reviews yet, would you like to <a href=\"#review_form\" class="
+"\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+"Det finns inga recensioner ännu, vill du <a href=\"#review_form\" class="
+"\"inline show_review_form\">lämna din</a>?"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:79
+msgid "Name"
+msgstr "Namn"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:81
+#: ../woocommerce/myaccount/form-login.php:48
+msgid "Email"
+msgstr "Email"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:84
+msgid "Submit Review"
+msgstr "Skicka Recension"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:91
+msgid "Rating"
+msgstr "Betyg"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:92
+msgid "Rate&hellip;"
+msgstr ""
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:93
+msgid "Perfect"
+msgstr "Perfekt"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:94
+msgid "Good"
+msgstr "Bra"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:95
+msgid "Average"
+msgstr "Medelmåttig"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:96
+msgid "Not that bad"
+msgstr "Inte så bra"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:97
+msgid "Very Poor"
+msgstr "Väldigt dålig"
+
+# @ woocommerce
+#: ../woocommerce/single-product-reviews.php:102
+msgid "Your Review"
+msgstr "Din Recension"
+
+# @ sp
+#: ../woocommerce/cart/cart.php:19
+msgid "Sub-Total"
+msgstr "Delsumma"
+
+# @ woocommerce
+#: ../woocommerce/cart/cart.php:45
+msgid "Remove this item"
+msgstr "Ta bort den här produkten"
+
+# @ woocommerce
+#: ../woocommerce/cart/cart.php:70
+msgid "Available on backorder"
+msgstr "Finns på beställning"
+
+# @ woocommerce
+#: ../woocommerce/cart/cart.php:120
+msgid "Coupon"
+msgstr "Kupong"
+
+# @ woocommerce
+#: ../woocommerce/cart/cart.php:120 ../woocommerce/checkout/form-coupon.php:19
+msgid "Apply Coupon"
+msgstr "Lämna kupong"
+
+# @ woocommerce
+#: ../woocommerce/cart/cart.php:127
+msgid "Update Cart"
+msgstr "Uppdatera varukorg"
+
+# @ woocommerce
+#: ../woocommerce/cart/cart.php:145
+msgid "Proceed to Checkout &rarr;"
+msgstr "Fortsätt till Kassan &rarr;"
+
+# @ woocommerce
+#: ../woocommerce/cart/cross-sells.php:29
+msgid "You may be interested in&hellip;"
+msgstr "Du kanske är intressera in&hellip;"
+
+# @ woocommerce
+#: ../woocommerce/cart/empty.php:7
+msgid "Your cart is currently empty."
+msgstr "Din varukorg är tom just nu."
+
+# @ woocommerce
+#: ../woocommerce/cart/empty.php:11
+msgid "&larr; Return To Shop"
+msgstr "&larr; Fortsätt handla"
+
+# @ woocommerce
+#: ../woocommerce/cart/shipping-calculator.php:14
+msgid "Calculate Shipping"
+msgstr "Kalkylera Frakt"
+
+# @ woocommerce
+#: ../woocommerce/cart/shipping-calculator.php:18
+msgid "Select a country&hellip;"
+msgstr "Välj ett country&hellip;"
+
+# @ woocommerce
+#: ../woocommerce/cart/shipping-calculator.php:38
+msgid "Select a state&hellip;"
+msgstr "Välj en state&hellip;"
+
+# @ woocommerce
+#: ../woocommerce/cart/shipping-calculator.php:50
+msgid "State"
+msgstr "Delstat"
+
+# @ woocommerce
+#: ../woocommerce/cart/shipping-calculator.php:57
+msgid "Postcode/Zip"
+msgstr "Postnummer"
+
+# @ woocommerce
+#: ../woocommerce/cart/shipping-calculator.php:57
+msgid "Postcode"
+msgstr "Postnummer"
+
+# @ woocommerce
+#: ../woocommerce/cart/shipping-calculator.php:60
+msgid "Update Totals"
+msgstr "Uppdatera summan"
+
+# @ woocommerce
+#: ../woocommerce/checkout/cart-errors.php:9
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+"Det är några problem med produkterna i din varukorg (se ovan). Var god gå "
+"tillbaka till varukorgen och klara upp dessa problem innan kassan."
+
+# @ woocommerce
+#: ../woocommerce/checkout/cart-errors.php:13
+msgid "&larr; Return To Cart"
+msgstr "&larr; Återgå till varukorgen"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-billing.php:10
+msgid "Billing &amp; Shipping"
+msgstr "Betalning &amp; Frakt"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-billing.php:14
+#: ../woocommerce/myaccount/form-edit-address.php:21
+#: ../woocommerce/myaccount/my-address.php:20
+msgid "Billing Address"
+msgstr "Betalningsadress"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-billing.php:33
+msgid "Create an account?"
+msgstr "Skapa konto?"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-billing.php:42
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login with your username at the top of the page."
+msgstr ""
+"Skapa konto genom att fylla i informationen nedan. Om du är en återkommande "
+"kund - var god logga in med ditt användarnamn längst upp på sidan."
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr "Du måste vara inloggad för att gå till kassan."
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-checkout.php:44
+msgid "Your order"
+msgstr "Din order"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-coupon.php:7
+msgid "Have a coupon?"
+msgstr "Har du en kupong?"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-coupon.php:10
+msgid "Click here to enter your code"
+msgstr "Klicka här för att fylla i din kod"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-coupon.php:15
+msgid "Coupon code"
+msgstr "Kupongkod"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-login.php:8
+msgid "Already registered?"
+msgstr "Redan registrerad?"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-login.php:11
+msgid "Click here to login"
+msgstr "Klicka här för att logga in"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-login.php:13
+msgid ""
+"If you have shopped with us before, please enter your username and password "
+"in the boxes below. If you are a new customer please proceed to the Billing "
+"&amp; Shipping section."
+msgstr ""
+"Om du har handlat av oss tidigare, var god fyll i ditt användarnamn och "
+"lösenord i rutorna här under. Om du är en ny kund var vänlig fortsätt till "
+"Betalning &amp; Frakt delen."
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-pay.php:14
+msgid "Totals"
+msgstr "Summa"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-pay.php:70
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Sorry, det verkar inte finnas något betalningsalternativ för din adress. Var "
+"god kontakta oss om du behöver hjälp eller önskar finna något annat "
+"alternativ."
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-pay.php:79
+msgid "Pay for order"
+msgstr "Betala för beställning"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-shipping.php:25
+msgid "Ship to billing address?"
+msgstr "Skicka till betalningsadress?"
+
+# @ woocommerce
+#: ../woocommerce/checkout/form-shipping.php:28
+#: ../woocommerce/myaccount/form-edit-address.php:21
+#: ../woocommerce/myaccount/my-address.php:51
+msgid "Shipping Address"
+msgstr "Fraktadress"
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:27
+msgid "Cart Subtotal"
+msgstr "Delsumma varukorg"
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:34
+msgid "Cart Discount"
+msgstr "Rabatt varukorg"
+
+#: ../woocommerce/checkout/review-order.php:113
+msgid "Tax"
+msgstr ""
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:124
+msgid "Order Discount"
+msgstr "Order Rabatt"
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:133
+msgid "Order Total"
+msgstr "Order Total"
+
+#: ../woocommerce/checkout/review-order.php:151
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:237
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Var vänlig fyll i uppgifterna ovan för att se möjliga betalningsalternativ."
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:239
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Sorry, det verkar inte finnas något betalningsalternativ för din adress. Var "
+"god kontakta oss om du behöver hjälp eller önskar finna något annat "
+"alternativ."
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:248
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"Eftersom din webbläsare inte stöder JavaScript, eller detta är avstängt, se "
+"till att du klickar <em>Uppdatera Summan</em> knappen innan du skickar din "
+"order. Du kan annars få betala mer än den summa som visas ovan."
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:248
+msgid "Update totals"
+msgstr "Uppdatera Summan"
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:254
+msgid "Place order"
+msgstr "Skicka beställning"
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:258
+#, fuzzy
+msgid "I have read and accept the"
+msgstr "Jag accepterar"
+
+# @ woocommerce
+#: ../woocommerce/checkout/review-order.php:258
+msgid "terms &amp; conditions"
+msgstr "Villkoren"
+
+# @ woocommerce
+#: ../woocommerce/checkout/thankyou.php:13
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+"Tyvärr kan din order inte behandlas eftersom banken/kreditbolaget nekat den "
+"här transaktionen."
+
+# @ woocommerce
+#: ../woocommerce/checkout/thankyou.php:17
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+"Var god försök skicka din beställning igen eller gå till sidan för ditt "
+"konto."
+
+# @ woocommerce
+#: ../woocommerce/checkout/thankyou.php:19
+msgid "Please attempt your purchase again."
+msgstr "Var god försök att göra ditt inköp igen."
+
+# @ woocommerce
+#: ../woocommerce/checkout/thankyou.php:24
+#: ../woocommerce/myaccount/my-orders.php:58
+msgid "Pay"
+msgstr "Betala"
+
+# @ woocommerce
+#: ../woocommerce/checkout/thankyou.php:42
+#: ../woocommerce/checkout/thankyou.php:79
+msgid "Thank you. Your order has been received."
+msgstr "Tack. Din beställning är mottagen."
+
+# @ woocommerce
+#: ../woocommerce/checkout/thankyou.php:46
+msgid "Order:"
+msgstr "Order:"
+
+# @ woocommerce
+#: ../woocommerce/checkout/thankyou.php:50
+msgid "Date:"
+msgstr "Datum:"
+
+# @ woocommerce
+#: ../woocommerce/checkout/thankyou.php:59
+msgid "Payment method:"
+msgstr "Betalningsmetod:"
+
+# @ sp
+#: ../woocommerce/checkout/thankyou.php:74
+msgid "Your Cart"
+msgstr "Din varukorg"
+
+# @ sp
+#: ../woocommerce/checkout/thankyou.php:75
+msgid "Info"
+msgstr "Info"
+
+# @ sp
+#: ../woocommerce/checkout/thankyou.php:76
+msgid "Final"
+msgstr "Slutlig"
+
+# @ woocommerce
+#: ../woocommerce/loop/add-to-cart.php:13
+#: ../woocommerce/loop/add-to-cart.php:30
+msgid "Details"
+msgstr "Detaljer"
+
+# @ woocommerce
+#: ../woocommerce/loop/add-to-cart.php:22
+msgid "Select options"
+msgstr "Välj alternativ"
+
+# @ woocommerce
+#: ../woocommerce/loop/add-to-cart.php:26
+msgid "View options"
+msgstr "Se alternativ"
+
+# @ woocommerce
+#: ../woocommerce/loop/add-to-cart.php:34
+#: ../woocommerce/single-product/add-to-cart/grouped.php:43
+#: ../woocommerce/single-product/add-to-cart/variable.php:68
+#: ../woocommerce/single-product/add-to-cart/variable.php:153
+msgid "Add to cart"
+msgstr "Lägg i varukorgen"
+
+# @ woocommerce
+#: ../woocommerce/loop/sale-flash.php:10
+#: ../woocommerce/single-product/sale-flash.php:10
+msgid "Sale!"
+msgstr "Rea!"
+
+# @ woocommerce
+#: ../woocommerce/loop/sorting.php:10
+msgid "Default sorting"
+msgstr "Normal sortering"
+
+# @ woocommerce
+#: ../woocommerce/loop/sorting.php:11
+msgid "Sort alphabetically"
+msgstr "Sortera i alfabetsordning"
+
+# @ woocommerce
+#: ../woocommerce/loop/sorting.php:12
+msgid "Sort by most recent"
+msgstr "Sortera enligt senaste"
+
+# @ woocommerce
+#: ../woocommerce/loop/sorting.php:13
+msgid "Sort by price"
+msgstr "Sortera enligt pris"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-change-password.php:14
+msgid "New password"
+msgstr "Nytt lösenord"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-change-password.php:18
+msgid "Re-enter new password"
+msgstr "Upprepa nytt lösenord"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-change-password.php:23
+msgid "Save"
+msgstr "Spara"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-edit-address.php:36
+msgid "Save Address"
+msgstr "Spara Adress"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-login.php:15
+#: ../woocommerce/myaccount/form-login.php:29
+#: ../woocommerce/shop/form-login.php:25
+msgid "Login"
+msgstr "Login"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-login.php:18
+#: ../woocommerce/myaccount/form-login.php:44
+#: ../woocommerce/shop/form-login.php:14
+msgid "Username"
+msgstr "Användarnamn"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-login.php:22
+#: ../woocommerce/myaccount/form-login.php:54
+#: ../woocommerce/shop/form-login.php:18
+msgid "Password"
+msgstr "Lösenord"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-login.php:30
+#: ../woocommerce/shop/form-login.php:27
+msgid "Lost Password?"
+msgstr "Glömt lösenordet?"
+
+# @ sp
+#: ../woocommerce/myaccount/form-login.php:37
+msgid "OR"
+msgstr "ELLER"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-login.php:40
+#: ../woocommerce/myaccount/form-login.php:70
+msgid "Register"
+msgstr "Registrera"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/form-login.php:58
+msgid "Re-enter password"
+msgstr "Upprepa lösenord"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-account.php:11
+#, php-format
+msgid ""
+"Hello, <strong>%s</strong>. From your account dashboard you can view your "
+"recent orders, manage your shipping and billing addresses and <a href=\"%s"
+"\">change your password</a>."
+msgstr ""
+"Hej, <strong>%s</strong>. Från kontrollpanelen för ditt konto kan du se dina "
+"sensate beställningar, sköta frakt och betalningsadresser och <a href=\"%s"
+"\">ändra ditt lösenord</a>."
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-account.php:16
+msgid "Available downloads"
+msgstr "Tillgängliga nedladdningar"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-account.php:19
+msgid "&nbsp;download remaining"
+msgstr ""
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-account.php:24
+msgid "Recent Orders"
+msgstr "Senaste beställningar"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-account.php:27
+msgid "My Address"
+msgstr "Min Adress"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-account.php:28
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "Följande adresser kommer att användas i kassan som standard."
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-address.php:39
+msgid "You have not set up a billing address yet."
+msgstr "Du har inte lagt in någon betalningsadress ännu."
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-address.php:70
+msgid "You have not set up a shipping address yet."
+msgstr "Du har inte lagt in någon fraktadress ännu."
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-orders.php:28
+msgid "Order"
+msgstr "Beställning"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-orders.php:29
+msgid "Ship to"
+msgstr "Skicka till"
+
+# @ woocommerce
+# @ sp
+#: ../woocommerce/myaccount/my-orders.php:31
+msgid "Status"
+msgstr "Status"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-orders.php:52
+msgid "Click to cancel this order"
+msgstr "Klicka för att avbryta denna beställning"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-orders.php:52
+msgid "Cancel"
+msgstr "Avbryt"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-orders.php:61
+msgid "View"
+msgstr "Se"
+
+# @ woocommerce
+#: ../woocommerce/myaccount/my-orders.php:73
+msgid "You have no recent orders."
+msgstr "Du har inte gjort några beställningar nyligen."
+
+#: ../woocommerce/shop/breadcrumb.php:8
+msgid "Home"
+msgstr ""
+
+# @ woocommerce
+#: ../woocommerce/shop/breadcrumb.php:63
+msgid "Products tagged &ldquo;"
+msgstr "Produkter taggade &ldquo;"
+
+# @ woocommerce
+#: ../woocommerce/shop/breadcrumb.php:86
+#: ../woocommerce/shop/breadcrumb.php:170
+msgid "Search results for &ldquo;"
+msgstr "Sökresultat för &ldquo;"
+
+# @ woocommerce
+#: ../woocommerce/shop/breadcrumb.php:134
+msgid "Error 404"
+msgstr "Error 404"
+
+# @ woocommerce
+#: ../woocommerce/shop/breadcrumb.php:174
+msgid "Posts tagged &ldquo;"
+msgstr "Inlägg taggad &ldquo;"
+
+# @ woocommerce
+#: ../woocommerce/shop/breadcrumb.php:179
+msgid "Author:"
+msgstr "Skribent:"
+
+# @ woocommerce
+#: ../woocommerce/shop/breadcrumb.php:185
+msgid "Page"
+msgstr "Sida"
+
+# @ woocommerce
+#: ../woocommerce/single-product/meta.php:37
+msgid "SKU:"
+msgstr "SKU:"
+
+# @ woocommerce
+#: ../woocommerce/single-product/meta.php:40
+msgid "Category:"
+msgstr "Kategori:"
+
+# @ woocommerce
+#: ../woocommerce/single-product/meta.php:42
+msgid "Tags:"
+msgstr "Taggar:"
+
+# @ woocommerce
+#: ../woocommerce/single-product/product-attributes.php:22
+msgid "Weight"
+msgstr "Vikt"
+
+# @ woocommerce
+#: ../woocommerce/single-product/product-attributes.php:31
+msgid "Dimensions"
+msgstr "Dimensioner"
+
+# @ sp
+#: ../woocommerce/single-product/related.php:32
+msgid "Related Products"
+msgstr "Besläktade Produkter"
+
+# @ woocommerce
+#: ../woocommerce/single-product/review.php:22
+msgid "Your comment is awaiting approval"
+msgstr "Din kommentar väntar på godkännande"
+
+# @ woocommerce
+#: ../woocommerce/single-product/review.php:29
+msgid "verified owner"
+msgstr "bekräftad ägare"
+
+# @ woocommerce
+#: ../woocommerce/single-product/review.php:31
+msgid "M jS Y"
+msgstr "M jS Y"
+
+# @ sp
+#: ../woocommerce/single-product/up-sells.php:30
+msgid "You May Also Like:"
+msgstr "Du kanske också tycker om:"
+
+# @ woocommerce
+#: ../woocommerce/single-product/add-to-cart/grouped.php:75
+#: ../woocommerce/single-product/add-to-cart/simple.php:34
+msgid "add to cart"
+msgstr "lägg i varukorgen"
+
+# @ woocommerce
+#: ../woocommerce/single-product/add-to-cart/variable.php:26
+#: ../woocommerce/single-product/add-to-cart/variable.php:93
+msgid "Choose an option"
+msgstr "Välj ett alternativ"
+
+# @ woocommerce
+#: ../woocommerce/single-product/add-to-cart/variable.php:58
+#: ../woocommerce/single-product/add-to-cart/variable.php:143
+msgid "Clear selection"
+msgstr "Töm urval"
+
+# @ woocommerce
+#: ../woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr "Produktbeskrivning"

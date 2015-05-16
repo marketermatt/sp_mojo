@@ -1,0 +1,22 @@
+/*
+Theme Name: Mojo
+Theme URI: http://mojo.splashingpixels.com
+Description: A light clean and fun style theme for accessories alike
+Author: Splashing Pixels
+Author URI: http://splashingpixels.com
+Version: 2.2.4
+Template: mojo
+Tags: light, 960, 1-column, 2-columns, 3-columns, responsive, mobile ready, fun
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*-----
+
+DO NOT EDIT!
+
+To add in your own CSS styles, it is recommended that you create a file called custom_styles.css in your child theme folder and the framework will automatically apply your CSS changes.  If you need more information, please visit the support forums at http://splashingpixels.com
+----*/
+
+@import url("../mojo/style.css");
