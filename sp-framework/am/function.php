@@ -159,7 +159,7 @@ class API_Manager_theme_Mojo {
 			$this->ame_deactivate_checkbox 			= 'am_deactivate_mojo_checkbox';
 			$this->ame_activation_tab_key 			= 'api_manager_theme_mojo_dashboard';
 			$this->ame_deactivation_tab_key 		= 'api_manager_theme_mojo_deactivation';
-			$this->ame_settings_menu_title 			= 'AM Theme Mojo';
+			$this->ame_settings_menu_title 			= 'SP Theme Mojo';
 			$this->ame_settings_title 				= 'API Manager Theme Mojo';
 			$this->ame_menu_tab_activation_title 	= __( 'License Activation', 'api-manager-mojo' );
 			$this->ame_menu_tab_deactivation_title 	= __( 'License Deactivation', 'api-manager-mojo' );
