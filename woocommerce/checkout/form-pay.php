@@ -75,7 +75,7 @@ global $woocommerce;
 		<?php endif; ?>
 
 		<div class="form-row">
-			<?php $woocommerce->nonce_field('pay')?>
+			<?php wp_nonce_field('pay')?>
 			<div class="input-button-buy"><span><input type="submit" class="button alt" id="place_order" value="<?php _e('Pay for order', 'sp'); ?>" /></span></div>
 			<input type="hidden" name="woocommerce_pay" value="1" />
 		</div>

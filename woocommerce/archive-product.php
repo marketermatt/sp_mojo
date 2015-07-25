@@ -84,7 +84,9 @@ get_header('shop'); ?>
 							$image_height = $sizes['image_height'];
                         	?>
 							<a data-rel="prettyPhoto[<?php echo $post->ID; ?>]" title="<?php the_title_attribute(); ?>" href="<?php echo sp_get_image($post->ID); ?>" class="zoom thickbox preview_link" onclick="return false;" data-id="<?php echo $post->ID; ?>">
-						<img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="product_image" alt="<?php the_title_attribute(); ?>" src="<?php echo sp_timthumb_format('quickview_main', sp_get_image($post->ID), $image_width, $image_height); ?>" />
+                             <?php echo get_the_post_thumbnail( $page->ID, array($image_width,$image_height), array( 'class' => 'product_image' ) ); ?>
+                             
+						
                         	<?php if($product->is_on_sale() && sp_isset_option( 'saletag', 'boolean', 'true' ) ) : ?><span class="sale"><?php _e('Sale', 'sp'); ?></span><?php endif; ?>					
                             <img title="Loading" alt="Loading" src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" class="load loading-<?php echo $post->ID; ?>" /> 	
                             </a>
@@ -93,7 +95,7 @@ get_header('shop'); ?>
 							$image_height = '347';
 						?>
 								<a data-rel="prettyPhoto[<?php echo $post->ID; ?>]" title="<?php the_title_attribute(); ?>" href="<?php echo get_template_directory_uri(); ?>/images/no-product-image.jpg" class="zoom thickbox preview_link" onclick="return false;" data-id="<?php echo $post->ID; ?>">
-									<img class="no-image" alt="No Image" title="<?php the_title_attribute(); ?>" src="<?php echo sp_timthumb_format('quickview_main', get_template_directory_uri().'/images/no-product-image.jpg', $image_width, $image_height); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
+									<img class="no-image" alt="No Image" title="<?php the_title_attribute(); ?>" src="<?php echo  get_template_directory_uri().'/images/no-product-image.jpg'; ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
 								<?php if($product->is_on_sale() && sp_isset_option( 'saletag', 'boolean', 'true' ) ) : ?><span class="sale"><?php _e('Sale', 'sp'); ?></span><?php endif; ?>
                                 <img title="Loading" alt="Loading" src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" class="load loading-<?php echo $post->ID; ?>" /> 
                                 </a>

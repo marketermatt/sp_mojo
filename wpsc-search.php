@@ -13,7 +13,7 @@ $cat_image_height = sp_get_theme_init_setting('wpec_product_category_size', 'hei
 					<div class="item_image">
 						<?php if(wpsc_the_product_thumbnail()) :?> 	   
 						<a href="<?php echo wpsc_the_product_permalink(); ?>" title="<?php echo wpsc_the_product_title(); ?>">
-						<img class="product_image" alt="<?php echo wpsc_the_product_title(); ?>" src="<?php echo sp_timthumb_format( 'product_grid', sp_get_image( wpsc_the_product_id()), $image_width, $image_height); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
+						 <?php echo get_the_post_thumbnail( $post->ID, array($image_width,$image_height), array( 'class' => '' ) ); ?>
 						</a>
                         <?php if (sp_isset_option( 'quickview', 'boolean', 'true' )) { ?>
                         <span class="quickview-over"></span>
@@ -41,7 +41,7 @@ $cat_image_height = sp_get_theme_init_setting('wpec_product_category_size', 'hei
                         </div><!--close inner-container-->                        
 				<?php else: ?> 
 						<a href="<?php echo wpsc_the_product_permalink(); ?>" title="<?php echo wpsc_the_product_title(); ?>">
-						<img class="no-image" alt="<?php echo wpsc_the_product_title(); ?>" title="<?php echo wpsc_the_product_title(); ?>" src="<?php echo sp_timthumb_format( 'product_grid', get_template_directory_uri() . '/images/no-product-image.jpg', $image_width, $image_height ); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
+						<img class="no-image" alt="<?php echo wpsc_the_product_title(); ?>" title="<?php echo wpsc_the_product_title(); ?>" src="<?php echo get_template_directory_uri() . '/images/no-product-image.jpg'; ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
 						</a>
                         <?php if (sp_isset_option( 'quickview', 'boolean', 'true' )) { ?>
                         <span class="quickview-over"></span>
@@ -110,7 +110,7 @@ $cat_image_height = sp_get_theme_init_setting('wpec_product_category_size', 'hei
 							$image_height = $sizes['image_height'];
                         	?>
 							<a data-rel="prettyPhoto[<?php echo wpsc_the_product_id(); ?>]" title="<?php echo wpsc_the_product_title(); ?>" href="<?php echo wpsc_the_product_image(); ?>" class="<?php echo wpsc_the_product_image_link_classes(); ?>" onclick="return false;" data-id="<?php echo wpsc_the_product_id(); ?>">
-						<img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="product_image" alt="<?php echo wpsc_the_product_title(); ?>" src="<?php echo sp_timthumb_format( 'quickview_main', sp_get_image(wpsc_the_product_id()), $image_width, $image_height); ?>" />
+						  <?php echo get_the_post_thumbnail( $post->ID, array($image_width,$image_height), array( 'class' => 'product_image' ) ); ?>
                         <img title="Loading" alt="Loading" src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" class="load loading-<?php echo wpsc_the_product_id(); ?>" />                                                
 							</a>
 						<?php else: 
@@ -118,7 +118,7 @@ $cat_image_height = sp_get_theme_init_setting('wpec_product_category_size', 'hei
 							$image_height = '347';						
 						?>
 							<a data-rel="prettyPhoto[<?php echo wpsc_the_product_id(); ?>]" title="<?php echo wpsc_the_product_title(); ?>" href="<?php echo get_template_directory_uri(); ?>/images/no-product-image.jpg" class="<?php echo wpsc_the_product_image_link_classes(); ?>" onclick="return false;" data-id="<?php echo wpsc_the_product_id(); ?>">
-						<img class="no-image" alt="No Image" title="<?php echo wpsc_the_product_title(); ?>" src="<?php echo sp_timthumb_format( 'quickview_main', get_template_directory_uri().'/images/no-product-image.jpg', $image_width, $image_height ); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
+						<img class="no-image" alt="No Image" title="<?php echo wpsc_the_product_title(); ?>" src="<?php echo get_template_directory_uri().'/images/no-product-image.jpg'; ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
                         <img title="Loading" alt="Loading" src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" class="load loading-<?php echo wpsc_the_product_id(); ?>" />                                                            
 								</a>
 						<?php endif; ?>

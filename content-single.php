@@ -14,9 +14,10 @@
 					<h2 class="entry-title"><?php the_title(); ?></h2>
                     	<div class="image-wrapper">
                         <?php if (has_post_thumbnail() && $post_image_url) { ?>
-                        <img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="wp-post-image" alt="<?php the_title_attribute(); ?>" src="<?php echo sp_timthumb_format( 'blog_single', $post_image_url, $image_width, $image_height ); ?>" />
+                         <?php echo get_the_post_thumbnail( $post->ID, array($image_width,$image_height), array( 'class' => 'wp-post-image' ) ); ?>
+                        
                         <?php } else { ?>
-                        <img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="wp-post-image" alt="<?php the_title_attribute(); ?>" src="<?php echo sp_timthumb_format( 'blog_single', get_template_directory_uri() . '/images/no-product-image.jpg', $image_width, $image_height ); ?>" />
+                        <img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="wp-post-image" alt="<?php the_title_attribute(); ?>" src="<?php echo get_template_directory_uri() . '/images/no-product-image.jpg'; ?>" />
                         <?php } ?>
 						</div><!--close image-wrapper-->
 					<div class="entry-content group">

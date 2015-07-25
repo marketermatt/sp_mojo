@@ -31,7 +31,7 @@
 		do_action( 'woocommerce_before_single_product_summary' ); 
 	?>
 	<div class="productcol">
-        <div class="summary">
+        <div class="summary--">
     
             <?php 
                 /**

@@ -15,10 +15,10 @@ if (sp_isset_option( 'homepage_featured_grid_cat', 'isset' ) && sp_isset_option(
 			{				
                 // if less than 2.0
                 if ( version_compare( WOOCOMMERCE_VERSION, '2.0', '<' ) ) {
-                    $image_width = $woocommerce->get_image_size( 'shop_catalog_image_width' );
-                    $image_height = $woocommerce->get_image_size( 'shop_catalog_image_height' );
+                    $image_width = wc_get_image_size( 'shop_catalog_image_width' );
+                    $image_height = wc_get_image_size( 'shop_catalog_image_height' );
                 } else {                    
-                    $catalog_sizes = $woocommerce->get_image_size( 'shop_catalog' );
+                    $catalog_sizes = wc_get_image_size( 'shop_catalog' );
                     $image_width = $catalog_sizes['width'];
                     $image_height = $catalog_sizes['height'];                    
                 }
@@ -40,7 +40,7 @@ if (sp_isset_option( 'homepage_featured_grid_cat', 'isset' ) && sp_isset_option(
 					<div class="item_image">                    	
 						<?php if(has_post_thumbnail()) :?> 	   
 						<a href="<?php the_permalink(); ?>">
-						<img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="product_image" alt="<?php the_title(); ?>" src="<?php echo sp_timthumb_format( 'product_grid', sp_get_image( $post->ID ), $image_width, $image_height ); ?>" />
+						<?php echo get_the_post_thumbnail( $post->ID, array($image_width,$image_height), array( 'class' => 'product_image' ) ); ?>
 						</a>
                         <?php if (sp_isset_option( 'quickview', 'boolean', 'true' ) ) { ?>
                         <span class="quickview-over"></span>
@@ -65,7 +65,7 @@ if (sp_isset_option( 'homepage_featured_grid_cat', 'isset' ) && sp_isset_option(
                         </div><!--close inner-container-->                        
 				<?php else: ?> 
 						<a href="<?php the_permalink(); ?>">
-						<img alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src="<?php echo sp_timthumb_format('product_grid', get_template_directory_uri().'/images/no-product-image.jpg', $image_width, $image_height ); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
+						<img alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src="<?php echo get_template_directory_uri().'/images/no-product-image.jpg'; ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
 						</a>
                         <?php if (sp_isset_option( 'quickview', 'boolean', 'true' ) ) { ?>
                         <span class="quickview-over"></span>
@@ -126,7 +126,8 @@ if (sp_isset_option( 'homepage_featured_grid_cat', 'isset' ) && sp_isset_option(
                                 $image_height = $sizes['image_height'];
                                 ?>
                                 <a data-rel="prettyPhoto[<?php echo $post->ID; ?>]" title="<?php the_title(); ?>" href="<?php echo sp_get_image($post->ID); ?>" class="zoom thickbox preview_link" onclick="return false;" data-id="<?php echo $post->ID; ?>">
-                            <img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="product_image" alt="<?php the_title(); ?>" src="<?php echo sp_timthumb_format('quickview_main', sp_get_image($post->ID), $image_width, $image_height); ?>" />
+                                               
+                            <?php echo get_the_post_thumbnail( $post->ID, array($image_width,$image_height), array( 'class' => 'product_image' ) ); ?>
                                 <?php if($product->is_on_sale() && sp_isset_option( 'saletag', 'boolean', 'true' ) ) : ?><span class="sale"><?php _e('Sale', 'sp'); ?></span><?php endif; ?>               
                                 <img title="Loading" alt="Loading" src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" class="load loading-<?php echo $post->ID; ?>" />          
                                 </a>
@@ -135,7 +136,7 @@ if (sp_isset_option( 'homepage_featured_grid_cat', 'isset' ) && sp_isset_option(
                                 $image_height = '347';
                             ?>
                                 <a data-rel="prettyPhoto[<?php echo $post->ID; ?>]" title="<?php the_title(); ?>" href="<?php echo get_template_directory_uri(); ?>/images/no-product-image.jpg" class="zoom thickbox preview_link" onclick="return false;" data-id="<?php echo $post->ID; ?>">
-                                    <img class="no-image" alt="No Image" title="<?php the_title(); ?>" src="<?php echo sp_timthumb_format('quickview_main', get_template_directory_uri().'/images/no-product-image.jpg', $image_width, $image_height); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
+                                    <img class="no-image" alt="No Image" title="<?php the_title(); ?>" src="<?php echo get_template_directory_uri().'/images/no-product-image.jpg'; ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
                                 <?php if($product->is_on_sale() && sp_isset_option( 'saletag', 'boolean', 'true' ) ) : ?><span class="sale"><?php _e('Sale', 'sp'); ?></span><?php endif; ?>
                                 <img title="Loading" alt="Loading" src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" class="load loading-<?php echo $post->ID; ?>" /> 
                                 </a>

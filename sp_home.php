@@ -27,10 +27,9 @@ if ( class_exists( 'WP_eCommerce' ) )
                             <div class="slide">
                             	<?php
 								if ( has_post_thumbnail() ) { ?>
-                                
-                                <img src="<?php echo sp_timthumb_format( 'homepage_slider', sp_get_image( get_the_ID() ), $image_width, $image_height ); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" alt="<?php the_title(); ?>" />
+                                <img src="<?php echo sp_get_image( get_the_ID() ); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" alt="<?php the_title(); ?>" />
                                 <?php } else { ?>
-                                <img src="<?php echo sp_timthumb_format( 'homepage_slider', get_template_directory_uri().'/images/no-product-image.jpg', $image_width, $image_height ); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" alt="<?php the_title(); ?>" />
+                                <img src="<?php echo get_template_directory_uri().'/images/no-product-image.jpg'; ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" alt="<?php the_title(); ?>" />
                                 <?php } ?>
                                 <div class="textblock">
                                     <h2><?php the_title(); ?></h2>
@@ -84,9 +83,9 @@ if ( class_exists( 'WP_eCommerce' ) )
 										$image_height = 120;
 										
 										if ( $post_image_url ) {
-												$output .= '<img src="' .sp_timthumb_format( 'homepage_carousel', $post_image_url, $image_width, $image_height ).'" title="' . get_the_title() . '" alt="' . get_the_title() . '" width="'.$image_width.'" height="'.$image_height.'" />'.$tag.'</a>';
+											$output .=get_the_post_thumbnail(get_the_ID(), array($image_width,$image_height), array( 'title' =>  get_the_title() ) ).$tag.'</a>';
 										} else {
-												$output .= '<img alt="' . get_the_title() . '" title="' . get_the_title() . '" src="'.sp_timthumb_format( 'homepage_carousel', get_template_directory_uri(). '/images/no-product-image.jpg', $image_width, $image_height ).'" width="'.$image_width.'" height="'.$image_height.'" />'.$tag.'</a>';
+												$output .= '<img alt="' . get_the_title() . '" title="' . get_the_title() . '" src="'.get_template_directory_uri(). '/images/no-product-image.jpg'.'" width="'.$image_width.'" height="'.$image_height.'" />'.$tag.'</a>';
 										}
 									$output .= '<span class="hover_icon">&nbsp;</span></li>';
 									$i++;
@@ -148,9 +147,9 @@ if ( class_exists( 'woocommerce' ) )
                         <?php						
 							if ( has_post_thumbnail() ) { ?>
                                 
-                                <img src="<?php echo sp_timthumb_format( 'homepage_slider', sp_get_image( get_the_ID() ), $image_width, $image_height ); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" alt="<?php the_title(); ?>" />
+                                <img src="<?php echo sp_get_image( get_the_ID() ); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" alt="<?php the_title(); ?>" />
                       <?php } else { ?>
-                                <img src="<?php echo sp_timthumb_format( 'homepage_slider', get_template_directory_uri().'/images/no-product-image.jpg', $image_width, $image_height ); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" alt="<?php the_title(); ?>" />
+                                <img src="<?php echo get_template_directory_uri().'/images/no-product-image.jpg'; ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" alt="<?php the_title(); ?>" />
                       <?php } ?>
                             <div class="textblock">
                                 <h2><?php the_title(); ?></h2>
@@ -202,9 +201,10 @@ if ( class_exists( 'woocommerce' ) )
 								$image_height = 120;
 					  
 								if ( $post_image_url ) {
-									$output .= '<img src="' .sp_timthumb_format( 'homepage_carousel', $post_image_url, $image_width, $image_height ).'" title="' . get_the_title() . '" alt="' . get_the_title() . '" width="'.$image_width.'" height="'.$image_height.'" />'.$tag.'<span class="hover_icon">&nbsp;</span></a>';
+									//$output .= '<img src="' .$post_image_url.'" title="' . get_the_title() . '" alt="' . get_the_title() . '" width="'.$image_width.'" height="'.$image_height.'" />'.$tag.'<span class="hover_icon">&nbsp;</span></a>';
+									$output .=get_the_post_thumbnail( $post->ID, array($image_width,$image_width), array( 'title' => get_the_title() ) ).'<span class="hover_icon">&nbsp;</span></a>';
 								} else {
-									$output .='<img alt="' . get_the_title() . '" title="' . get_the_title() . '" src="'.sp_timthumb_format( 'homepage_carousel', get_template_directory_uri(). '/images/no-product-image.jpg', $image_width, $image_height ).'" width="'.$image_width.'" height="'.$image_height.'" />';			
+									$output .='<img alt="' . get_the_title() . '" title="' . get_the_title() . '" src="'.get_template_directory_uri(). '/images/no-product-image.jpg'.'" width="'.$image_width.'" height="'.$image_height.'" />';			
 								$output .= '<span class="hover_icon">&nbsp;</span></a>';
 								}
 							$output .= '</li>';

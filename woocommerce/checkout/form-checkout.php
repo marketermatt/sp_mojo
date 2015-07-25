@@ -11,7 +11,7 @@
     <span class="icon-stages">&nbsp;</span>
 </div><!--close progress_wrapper-->
 
-<?php $woocommerce->show_messages(); ?>
+<?php wc_print_notices(); ?>
 
 <?php do_action('woocommerce_before_checkout_form');
 

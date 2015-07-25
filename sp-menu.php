@@ -63,17 +63,25 @@ class sp_nav_walker extends Walker_Nav_Menu
 			if ($wpdb->get_var($sql) != null) {
 				if ( class_exists( 'WP_eCommerce' ) ) {
 					if ( $image_src ) { 
-						$item_output .= '<img src="' . sp_timthumb_format( 'footer_menu', sp_check_ms_image( WPSC_CATEGORY_URL . $image_src ), $cat_width, $cat_height ).'" alt="Footer Category Menu" class="cat-image" />';
+						$item_output .=  wp_get_attachment_image( $item->ID, array($cat_width,$cat_height,true), $icon, array( 'class' => 'cat-image' ));
 					} else {
-						$item_output .= '<img src="' . sp_timthumb_format( 'footer_menu', get_template_directory_uri().'/images/no-product-image.jpg', $cat_width, $cat_height ).'" alt="Footer Category Menu" class="cat-image" />';
+						$item_output .= '<img src="' . get_template_directory_uri().'/images/no-product-image.jpg'.'" alt="Footer Category Menu" class="cat-image" />';
 					}
 				}
-				if ( class_exists( 'woocommerce' ) ) { 					
+				if ( class_exists( 'woocommerce' ) ) { 
+				  					
 					if ( $image_src ) { 
+					 $image_id = $image_src; 
 						$image_src = wp_get_attachment_image_src( $image_src );
-						$item_output .= '<img src="' . sp_timthumb_format( 'footer_menu', $image_src[0], $cat_width, $cat_height ) . '" alt="Footer Category Menu" class="cat-image" />';
+						                  
+						//$item_output .=get_the_post_thumbnail( $image_id, array($cat_width,$cat_height), array( 'class' => 'cat-image' ) );
+							
+						   $item_output .=  wp_get_attachment_image( $image_id, array($cat_width,$cat_height,true), $icon, array( 'class' => 'cat-image' ));
+						
 					} else {
-						$item_output .= '<img src="' . sp_timthumb_format( 'footer_menu', get_template_directory_uri().'/images/no-product-image.jpg', $cat_width, $cat_height ) . '" alt="Footer Category Menu" class="cat-image" />';
+						
+						
+						$item_output .= '<img width="'.$cat_width.'" height="'.$cat_height.'" src="' .get_template_directory_uri().'/images/no-product-image.jpg'. '" alt="Footer Category Menu" class="cat-image" />';
 					}
 				}
 			}

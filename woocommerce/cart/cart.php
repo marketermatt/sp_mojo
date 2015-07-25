@@ -17,7 +17,7 @@ global $woocommerce;
     <span class="icon-stages">&nbsp;</span>
 </div><!--close progress_wrapper-->
 <div class="yourtotal"><p class="title"><?php _e('Sub-Total', 'sp'); ?></p><p class="total"><?php echo $woocommerce->cart->get_cart_subtotal(); ?></p></div>
-<?php $woocommerce->show_messages(); ?>
+<?php wc_print_notices(); ?>
 <table class="shop_table cart" cellspacing="0">
 	<thead>
 		<tr>
@@ -126,7 +126,7 @@ global $woocommerce;
 
 				<input type="submit" class="update button" name="update_cart" value="<?php _e('Update Cart', 'sp'); ?>" /> 
 				
-				<?php $woocommerce->nonce_field('cart') ?>
+				<?php wp_nonce_field('cart') ?>
 			</td>
 		</tr>
 		

@@ -13,7 +13,7 @@ if ( version_compare( WOOCOMMERCE_VERSION, '2.0', '<' ) ) {
 	$image_thumb_width = get_option( 'woocommerce_thumbnail_image_width' );
 	$image_thumb_height = get_option( 'woocommerce_thumbnail_image_height' );
 } else {
-	$image_sizes = $woocommerce->get_image_size( 'shop_thumbnail' );
+	$image_sizes = wc_get_image_size( 'shop_thumbnail' );
 	$image_thumb_width = $image_sizes['width'];
 	$image_thumb_height = $image_sizes['height'];
 }
@@ -41,7 +41,7 @@ if ( sp_isset_option( 'show_gallery', 'boolean', 'true' ) ) {
 					$image_width = get_option( 'woocommerce_single_image_width' );
 					$image_height = get_option( 'woocommerce_single_image_height' );
 				} else {			
-					$image_sizes = $woocommerce->get_image_size( 'shop_single' );
+					$image_sizes = wc_get_image_size( 'shop_single' );
 					$image_width = $image_sizes['width'];
 					$image_height = $image_sizes['height'];
 				}
@@ -63,7 +63,7 @@ if ( sp_isset_option( 'show_gallery', 'boolean', 'true' ) ) {
 						$image_width = get_option( 'woocommerce_single_image_width' );
 						$image_height = get_option( 'woocommerce_single_image_height' );
 					} else {			
-						$image_sizes = $woocommerce->get_image_size( 'shop_single' );
+						$image_sizes = wc_get_image_size( 'shop_single' );
 						$image_width = $image_sizes['width'];
 						$image_height = $image_sizes['height'];
 					}
@@ -71,9 +71,13 @@ if ( sp_isset_option( 'show_gallery', 'boolean', 'true' ) ) {
 				}
 				
 				if ( sp_isset_option( 'woo_image_swap', 'boolean', 'true' ) ) {
-						echo '<a href="'.$featured_image.'" title="'.get_the_title( $attachment->ID ).'" class="thickbox preview_link" data-src="'.sp_timthumb_format( 'single_main', $featured_image, $image_width, $main_image_height ) .'" data-rel="prettyPhoto['.$post->ID.']" onclick="return false;"><img src="'.sp_timthumb_format( 'single_gallery', $featured_image, $image_thumb_width, $image_thumb_height ) .'" alt="'.get_the_title( $attachment->ID ).'" width="'.$image_thumb_width.'" height="'.$image_thumb_height.'" class="sp-attachment-thumbnails" /></a>';
+						echo '<a href="'.$featured_image.'" title="'.get_the_title( $attachment->ID ).'" class="thickbox preview_link" data-src="'.$featured_image.'" data-rel="prettyPhoto['.$post->ID.']" onclick="return false;">'						
+						.get_the_post_thumbnail( $post->ID, array($image_thumb_width,$image_thumb_height), array( 'class' => 'sp-attachment-thumbnails' ) ).
+						'</a>';
 					} else {
-						echo '<a href="'.$featured_image.'" title="'.get_the_title( $attachment->ID ).'" class="thickbox preview_link" data-src="'.sp_timthumb_format( 'single_main', $featured_image, $image_width, $main_image_height ) .'" data-rel="prettyPhoto['.$post->ID.']" onclick="return false;"><img src="'.sp_timthumb_format( 'single_gallery', $featured_image, $image_thumb_width, $image_thumb_height ) .'" alt="'.get_the_title( $attachment->ID ).'" width="'.$image_thumb_width.'" height="'.$image_thumb_height.'" /></a>';
+						echo '<a href="'.$featured_image.'" title="'.get_the_title( $attachment->ID ).'" class="thickbox preview_link" data-src="'.$featured_image.'" data-rel="prettyPhoto['.$post->ID.']" onclick="return false;">'						
+						.get_the_post_thumbnail( $post->ID, array($image_thumb_width,$image_thumb_height), array( 'class' => '' ) ).
+						'</a>';
 					}
 				}
 
@@ -81,9 +85,14 @@ if ( sp_isset_option( 'show_gallery', 'boolean', 'true' ) ) {
 					continue;
 				
 				if ( sp_isset_option( 'woo_image_swap', 'boolean', 'true' ) ) {	
-					echo '<a href="'.$link.'" title="'.get_the_title( $attachment->ID ).'" class="thickbox preview_link" data-src="'.sp_timthumb_format( 'single_main', $link, $image_width, $main_image_height ) .'" data-rel="prettyPhoto['.$post->ID.']" onclick="return false;"><img src="'.sp_timthumb_format( 'single_gallery', $link, $image_thumb_width, $image_thumb_height ) .'" alt="'.get_the_title( $attachment->ID ).'" width="'.$image_thumb_width.'" height="'.$image_thumb_height.'" class="sp-attachment-thumbnails" /></a>';
+				    
+					echo '<a href="'.$link.'" title="'.get_the_title( $attachment->ID ).'" class="thickbox preview_link" data-src="'.$link.'" data-rel="prettyPhoto['.$post->ID.']" onclick="return false;">'						
+						.wp_get_attachment_image( $attachment_id, array($image_thumb_width,$image_thumb_height),'', array( 'class' => 'sp-attachment-thumbnails' ) ).
+						'</a>';
 				} else {
-					echo '<a href="'.$link.'" title="'.get_the_title( $attachment->ID ).'" class="thickbox preview_link" data-src="'.sp_timthumb_format( 'single_main', $link, $image_width, $main_image_height ) .'" data-rel="prettyPhoto['.$post->ID.']" onclick="return false;"><img src="'.sp_timthumb_format( 'single_gallery', $link, $image_thumb_width, $image_thumb_height ) .'" alt="'.get_the_title( $attachment->ID ).'" width="'.$image_thumb_width.'" height="'.$image_thumb_height.'" /></a>';
+					echo '<a href="'.$link.'" title="'.get_the_title( $attachment->ID ).'" class="thickbox preview_link" data-src="'.$link.'" data-rel="prettyPhoto['.$post->ID.']" onclick="return false;">'						
+						.wp_get_attachment_image( $attachment_id, array($image_thumb_width,$image_thumb_height),'', array( 'class' => '' ) ).
+						'</a>';
 				}
 			$i++;
 		}

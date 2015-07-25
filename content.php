@@ -20,9 +20,9 @@ if (strtotime(get_the_date()) >= strtotime($days.' days ago')) {
 			$post_image_url = sp_get_image( $post->ID );
 			if (has_post_thumbnail() && $post_image_url) {
 			?>
-				<img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="wp-post-image" alt="<?php the_title_attribute(); ?>" src="<?php echo sp_timthumb_format( 'blog_list', $post_image_url, $image_width, $image_height ); ?>" />	
+				 <?php echo get_the_post_thumbnail( $post->ID, array($image_width,$image_height), array( 'class' => 'wp-post-image' ) ); ?>
 			<?php } else { ?>
-            <img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="wp-post-image" alt="<?php the_title_attribute(); ?>" src="<?php echo sp_timthumb_format( 'blog_list', get_template_directory_uri() . '/images/no-product-image.jpg', $image_width, $image_height ); ?>" />
+            <img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="wp-post-image" alt="<?php the_title_attribute(); ?>" src="<?php echo get_template_directory_uri() . '/images/no-product-image.jpg'; ?>" />
             <?php } ?>
             </a>
             <span class="quickview-over"></span>
@@ -92,7 +92,8 @@ if (strtotime(get_the_date()) >= strtotime($days.' days ago')) {
 				$no_image = '';
 			?>
             	<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="post-image-link">
-				<img width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" class="wp-post-image" alt="<?php the_title_attribute(); ?>" src="<?php echo sp_timthumb_format( 'blog_list', $post_image_url, $image_width, $image_height ); ?>" />	
+				 <?php echo get_the_post_thumbnail( $post->ID, array($image_width,$image_height), array( 'class' => 'wp-post-image' ) ); ?>
+                
             <span class="quickview-button"><?php _e('READ MORE','sp'); ?></span>
             </a>
 			<?php } ?>

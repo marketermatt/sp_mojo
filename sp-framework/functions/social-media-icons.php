@@ -18,27 +18,27 @@ if ( ! function_exists( 'sp_social_media_script' ) )
 		
 		$output = '';
 		$output .= '<ul>' . "\r\n";	
-		if ( isset( $spdata[THEME_SHORTNAME . 'facebook_enable'] ) && $spdata[THEME_SHORTNAME . 'facebook_enable'] == 'true' ) 
+		if ( isset( $spdata[THEME_SHORTNAME . 'facebook_enable'] ) && $spdata[THEME_SHORTNAME . 'facebook_enable'] == 'true' && $spdata[THEME_SHORTNAME . 'facebook_account']!='' ) 
 		{
 			$output .= '<li class="facebook"><a href="' . $spdata[THEME_SHORTNAME . 'facebook_account'] . '" title="' . __( 'Join Us on Facebook', 'sp' ) . '">Facebook</a></li>' . "\r\n";
 		}
-		if ( isset( $spdata[THEME_SHORTNAME . 'twitter_enable'] ) && $spdata[THEME_SHORTNAME . 'twitter_enable'] == 'true' ) 
+		if ( isset( $spdata[THEME_SHORTNAME . 'twitter_enable'] ) && $spdata[THEME_SHORTNAME . 'twitter_enable'] == 'true'  && $spdata[THEME_SHORTNAME . 'twitter_account']!='') 
 		{
 			$output .= '<li class="twitter"><a href="' . $spdata[THEME_SHORTNAME . 'twitter_account'] . '" title="' . __( 'Follow our Tweets', 'sp' ) . '">Twitter</a></li>' . "\r\n";	
 		}
-		if ( isset( $spdata[THEME_SHORTNAME . 'pinterest_enable'] ) && $spdata[THEME_SHORTNAME . 'pinterest_enable'] == 'true' )  
+		if ( isset( $spdata[THEME_SHORTNAME . 'pinterest_enable'] ) && $spdata[THEME_SHORTNAME . 'pinterest_enable'] == 'true'&& $spdata[THEME_SHORTNAME . 'pinterest_account']!='' )  
 		{
 			$output .= '<li class="pinterest"><a href="' . $spdata[THEME_SHORTNAME . 'pinterest_account'] . '" title="' . __( 'Follow our Pins', 'sp' ) . '">Pinterest</a></li>' . "\r\n";	
 		}
-		if ( isset( $spdata[THEME_SHORTNAME . 'flickr_enable'] ) && $spdata[THEME_SHORTNAME . 'flickr_enable'] == 'true' ) 
+		if ( isset( $spdata[THEME_SHORTNAME . 'flickr_enable'] ) && $spdata[THEME_SHORTNAME . 'flickr_enable'] == 'true' && $spdata[THEME_SHORTNAME . 'flickr_account']!='') 
 		{
 			$output .= '<li class="flickr"><a href="' . $spdata[THEME_SHORTNAME . 'flickr_account'] . '" title="' . __( 'Checkout our Flickr Photos', 'sp' ) . '">Flickr</a></li>' . "\r\n";	
 		}
-		if ( isset( $spdata[THEME_SHORTNAME . 'gplus_enable'] ) && $spdata[THEME_SHORTNAME . 'gplus_enable'] == 'true' ) 
+		if ( isset( $spdata[THEME_SHORTNAME . 'gplus_enable'] ) && $spdata[THEME_SHORTNAME . 'gplus_enable'] == 'true' && $spdata[THEME_SHORTNAME . 'gplus_account']!='' ) 
 		{
 			$output .= '<li class="gplus"><a href="' . $spdata[THEME_SHORTNAME . 'gplus_account'] . '" title="' . __( 'Checkout our Google Plus Profile', 'sp' ) . '">Google Plus</a></li>' . "\r\n";	
 		}
-		if ( isset( $spdata[THEME_SHORTNAME . 'youtube_enable'] ) && $spdata[THEME_SHORTNAME . 'youtube_enable'] == 'true' ) 
+		if ( isset( $spdata[THEME_SHORTNAME . 'youtube_enable'] ) && $spdata[THEME_SHORTNAME . 'youtube_enable'] == 'true' && $spdata[THEME_SHORTNAME . 'youtube_account']!='' ) 
 		{
 			$output .= '<li class="youtube"><a href="' . $spdata[THEME_SHORTNAME . 'youtube_account'] . '" title="' . __( 'Checkout our YouTube Videos', 'sp' ) . '">YouTube</a></li>' . "\r\n";	
 		}		

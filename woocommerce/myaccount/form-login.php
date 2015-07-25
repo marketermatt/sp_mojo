@@ -1,6 +1,6 @@
 <?php global $woocommerce; ?>
 
-<?php $woocommerce->show_messages(); ?>
+<?php wc_print_notices(); ?>
 
 <?php do_action('woocommerce_before_customer_login_form'); ?>
 
@@ -25,7 +25,7 @@
 			<div class="group"></div>
 			
 			<p class="form-row">
-				<?php $woocommerce->nonce_field('login', 'login') ?>
+				<?php wp_nonce_field('login', 'login') ?>
 				<input type="submit" class="button" name="login" value="<?php _e('Login', 'sp'); ?>" />
 				<a class="lost_password" href="<?php echo esc_url( wp_lostpassword_url( home_url() ) ); ?>"><?php _e('Lost Password?', 'sp'); ?></a>
 			</p>
@@ -66,7 +66,7 @@
 			<?php do_action( 'register_form' ); ?>
 			
 			<p class="form-row">
-				<?php $woocommerce->nonce_field('register', 'register') ?>
+				<?php wp_nonce_field('register', 'register') ?>
 				<input type="submit" class="button" name="register" value="<?php _e('Register', 'sp'); ?>" />
 			</p>
 			

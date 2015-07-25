@@ -70,7 +70,8 @@ if (sp_isset_option( 'product_view_buttons', 'boolean', 'true' )) {
 		<?php if ((get_option('wpsc_category_description') || get_option('show_category_thumbnails')) && (sp_check_ms_image(wpsc_category_image()) || wpsc_category_description()) ) { ?>
             <div class="wpsc_category_details group">
                     <?php if(get_option('show_category_thumbnails') && sp_check_ms_image(wpsc_category_image())) : ?>
-                    <img src="<?php echo sp_timthumb_format( 'product_category_image', sp_check_ms_image(wpsc_category_image()), $cat_image_width, $cat_image_height); ?>" width="<?php echo $cat_image_width; ?>" height="<?php echo $cat_image_height; ?>" alt="<?php echo wpsc_category_name(); ?>" />
+                       <?php echo get_the_post_thumbnail( $post->ID, array($cat_image_width,$cat_image_height), array( 'class' => '' ) ); ?>
+                    
                 <?php endif; ?>
                 
                 <?php if(get_option('wpsc_category_description') &&  wpsc_category_description()) : ?>
@@ -97,14 +98,14 @@ if (sp_isset_option( 'product_view_buttons', 'boolean', 'true' )) {
 							<div class="item_image">
 						<?php if(wpsc_the_product_thumbnail()) :?>
                             <a title="<?php echo wpsc_the_product_title(); ?>" class="<?php echo wpsc_the_product_image_link_classes(); ?>" href="<?php echo wpsc_the_product_image(); ?>" data-id="<?php echo wpsc_the_product_id(); ?>">
-								<img class="product_image" alt="<?php echo wpsc_the_product_title(); ?>" title="<?php echo wpsc_the_product_title(); ?>" src="<?php echo sp_timthumb_format( 'product_list', sp_get_image(wpsc_the_product_id()), $image_width, $image_height); ?>" />
+								<img class="product_image" alt="<?php echo wpsc_the_product_title(); ?>" title="<?php echo wpsc_the_product_title(); ?>" src="<?php echo sp_get_image(wpsc_the_product_id()); ?>" />
 								<span class="hover">&nbsp;</span>
 							</a>
                         	<img title="Loading" alt="Loading" src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" class="load loading-<?php echo wpsc_the_product_id(); ?>" />
                             
 						<?php else: ?>
                             <a href="<?php echo get_template_directory_uri(); ?>/images/no-product-image.jpg" title="<?php echo wpsc_the_product_title(); ?>" class="<?php echo wpsc_the_product_image_link_classes(); ?>" data-id="<?php echo wpsc_the_product_id(); ?>">
-								<img class="no-image" alt="No Image" title="<?php echo wpsc_the_product_title(); ?>" src="<?php echo sp_timthumb_format( 'product_list', get_template_directory_uri().'/images/no-product-image.jpg', $image_width, $image_height); ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
+								<img class="no-image" alt="No Image" title="<?php echo wpsc_the_product_title(); ?>" src="<?php echo get_template_directory_uri().'/images/no-product-image.jpg'; ?>" width="<?php echo $image_width; ?>" height="<?php echo $image_height; ?>" />
 								<span class="hover">&nbsp;</span>
 							</a>
                         	<img title="Loading" alt="Loading" src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" class="load loading-<?php echo wpsc_the_product_id(); ?>" />
