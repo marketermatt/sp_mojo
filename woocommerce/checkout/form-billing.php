@@ -1,6 +1,8 @@
 <?php
 /**
  * Checkout Billing Information Form
+ * @package 	WooCommerce/Templates
+ * @version     2.1.2
  */
 global $woocommerce;
 ?>

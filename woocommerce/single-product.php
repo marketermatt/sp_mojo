@@ -4,8 +4,8 @@
  *
  * Override this template by copying it to yourtheme/woocommerce/single-product.php
  *
- * @package WooCommerce
- * @since WooCommerce 1.0
+ * @package 	WooCommerce/Templates
+ * @version     1.6.4
  */
 
 get_header('shop'); ?>

@@ -1,3 +1,13 @@
+<?php
+/**
+ * Checkout Form
+ *
+ * @author 		WooThemes
+ * @package 	WooCommerce/Templates
+ * @version     2.3.0
+ */
+ ?>
+ 
 <?php global $woocommerce; $woocommerce_checkout = $woocommerce->checkout(); ?>
 
 	<script type="text/javascript">

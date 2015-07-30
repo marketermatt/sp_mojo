@@ -4,8 +4,8 @@
  *
  * Override this template by copying it to yourtheme/woocommerce/content-product.php
  *
- * @package WooCommerce
- * @since WooCommerce 1.6
+ * @package WooCommerce/Templates
+ * @version 1.6.4
  */
  
 global $product, $woocommerce_loop;

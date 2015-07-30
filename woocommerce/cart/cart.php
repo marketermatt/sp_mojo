@@ -1,6 +1,8 @@
 <?php
 /**
  * Cart Page
+ * @package WooCommerce/Templates
+ * @version 2.3.8
  */
  
 global $woocommerce;

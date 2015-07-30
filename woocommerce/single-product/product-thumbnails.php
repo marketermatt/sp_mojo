@@ -1,6 +1,8 @@
 <?php
 /**
  * Single Product Thumbnails
+ * @package 	WooCommerce/Templates
+ * @version     2.3.0
  */
 
 global $post, $woocommerce, $product, $main_image_height;

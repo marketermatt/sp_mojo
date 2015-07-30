@@ -1,4 +1,13 @@
-<?php global $woocommerce; ?>
+<?php
+/**
+ * Display single product reviews (comments)
+ *
+
+ * @package 	WooCommerce/Templates
+ * @version     2.3.2
+ */
+ 
+  global $woocommerce; ?>
 <?php if ( comments_open() ) : ?><div id="reviews"><?php 
 	
 	echo '<div id="comments">';

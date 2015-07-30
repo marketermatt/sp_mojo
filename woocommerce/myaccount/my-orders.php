@@ -1,6 +1,8 @@
 <?php
 /**
  * My Orders
+ * @package WooCommerce/Templates
+ * @version 2.3.10
  *
  * Shows recent orders on the account page
  */

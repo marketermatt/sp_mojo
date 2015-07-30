@@ -1,6 +1,8 @@
 <?php
 /**
  * My Account
+ * @package 	WooCommerce/Templates
+ * @version     2.0.0
  */
  
 global $woocommerce;

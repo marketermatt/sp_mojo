@@ -1,6 +1,8 @@
 <?php
 /**
  * Product attributes
+ * @package 	WooCommerce/Templates
+ * @version     2.1.3
  *
  * Used by list_attributes() in the products class
  */

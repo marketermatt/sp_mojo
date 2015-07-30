@@ -3,8 +3,8 @@
  * Variable product add to cart
  *
  * @author 		WooThemes
- * @package 	WooCommerce/Templates
- * @version     1.6.5
+ * @package WooCommerce/Templates
+ * @version 2.3.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly

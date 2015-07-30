@@ -1,6 +1,8 @@
 <?php
 /**
  * Review Comments Template
+ * @package 	WooCommerce/Templates
+ * @version     2.1.0
  *
  * Closing li is left out on purpose!
  */

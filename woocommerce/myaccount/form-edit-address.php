@@ -1,6 +1,8 @@
 <?php
 /**
  * Edit Address Form
+ * @package     WooCommerce/Templates
+ * @version     2.1.0
  */
  
 global $woocommerce, $current_user;

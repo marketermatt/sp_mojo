@@ -1,6 +1,8 @@
 <?php
 /**
  * Pagination
+ * @package 	WooCommerce/Templates
+ * @version     2.2.2
  */
 
 global $wp_query;

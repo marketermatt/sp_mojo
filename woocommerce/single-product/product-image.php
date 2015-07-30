@@ -1,6 +1,8 @@
 <?php
 /**
  * Single Product Image
+ * @package 	WooCommerce/Templates
+ * @version     2.0.14
  */
 
 global $post, $woocommerce, $product;
