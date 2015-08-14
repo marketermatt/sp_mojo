@@ -32,7 +32,8 @@ class API_Manager_Mojo_theme_MENU {
 						'manage_options', AMET()->ame_activation_tab_key, array( $this, 'config_page')
 		); */
 		
-		$page = add_submenu_page( 'index.php', __( AMET()->ame_settings_menu_title), __( AMET()->ame_settings_menu_title), 'manage_options', AMET()->ame_activation_tab_key, array( $this, 'config_page') );
+		//$page = add_submenu_page( 'index.php', __( AMET()->ame_settings_menu_title), __( AMET()->ame_settings_menu_title), 'manage_options', AMET()->ame_activation_tab_key, array( $this, 'config_page') );
+		$page = add_theme_page( 'index.php', __( AMET()->ame_settings_menu_title), __( AMET()->ame_settings_menu_title), 'manage_options', AMET()->ame_activation_tab_key, array( $this, 'config_page') );
 		add_action( 'admin_print_styles-' . $page, array( $this, 'css_scripts' ) );
 	}
 
@@ -44,7 +45,7 @@ class API_Manager_Mojo_theme_MENU {
 		$tab = isset( $_GET[ 'tab' ] ) ? $_GET[ 'tab' ] : AMET()->ame_activation_tab_key;
 		?>
 		<div class='wrap'>
-			<?php screen_icon(); ?>
+			<?php /*screen_icon();*/ get_screen_icon(); ?>
 			<h2><?php _e( AMET()->ame_settings_title, AMET()->text_domain ); ?></h2>
 
 			<h2 class="nav-tab-wrapper">

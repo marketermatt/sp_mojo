@@ -237,7 +237,7 @@ p.stars span a.star-5 {width:80px;z-index:6;}
 #single_product_page_container .input-button-buy button:hover {text-shadow:none;color:#fff;}
 #single_product_page_container .input-button-buy button {outline:none;border:none;cursor:pointer;background:none;color:#fff;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);padding:6px 0;position:relative;}
 #single_product_page_container .loading_animation {clear:left; float:right; margin-top:27px; margin-right:2px; visibility:hidden; position:relative;}
-#single_product_page_container .wpcart_gallery a {display:inline-block;vertical-align:top;margin:5px 7px;border:1px solid #CCCCCC;}
+#single_product_page_container .wpcart_gallery a {display:inline-block;vertical-align:top;margin:5px 7px;border:1px solid #CCCCCC; width:21.4%;}
 #single_product_page_container .wpcart_gallery a img {display:block;background-color:#fff;padding:1px;}
 #single_product_page_container .wpcart_gallery .preview_link {cursor:-moz-zoom-in;}
 #single_product_page_container .product_rating {position:absolute;top:46px;left:104px;}
@@ -299,7 +299,7 @@ background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 
 .single_product_display .variations_form label  {font-size:1em;line-height:1.2em;vertical-align:middle;color:#F97D0A;text-transform:capitalize;}
 .single_product_display .add-wrap {height:90px;text-align:right;clear:both;margin-top:30px;}
 .single_product_display .single_variation span.price ins {font-size:22px;}
-.single_product_display .quantity input.input-text {width:20px;text-align:center;background-image:none;background-color:#fff;vertical-align:middle;border:1px solid #ccc;border-radius:2px;}
+.single_product_display .quantity input.input-text {width:35px;text-align:center;background-image:none;background-color:#fff;vertical-align:middle;border:1px solid #ccc;border-radius:2px;}
 .single_product_display a.external-button:link, .single_product_display a.external-button:visited {background:url(images/grey_button.png) no-repeat bottom right transparent;padding:0 9px 0 0;display:inline-block;line-height:38px;color:#fff;text-shadow:-1px -1px 0 rgba(0, 0, 0, 0.6);position:relative;font-size:14px;text-decoration:none;float:right;margin-top:10px;clear:both;}
 .single_product_display a.external-button span {background:url(images/grey_button.png) no-repeat 0 -76px transparent;padding:0 0 0 9px;height:38px;display:block;}
 .single_product_display a.external-button:hover {background-position:right -38px;}
@@ -442,7 +442,7 @@ table.shop_table.cart tr {border-top:3px solid #FFFFFF;}
 table.shop_table.cart td {margin:0;padding:5px;vertical-align:middle;line-height:1.2em;}
 table.shop_table.cart td.actions {padding:20px 0;}
 table.shop_table.cart td.product-thumbnail img {border:2px solid #666;border-radius:5px;width:50px;height:50px;}
-table.shop_table.cart input.text.qty {width:20px;text-align:center;margin:0 5px;background-color:#fff;border:1px solid #ccc;border-radius:2px;vertical-align:middle;}
+table.shop_table.cart input.text.qty {width:30px !important;text-align:center;margin:0 5px;background-color:#fff;border:1px solid #ccc;border-radius:2px;vertical-align:middle;}
 table.shop_table.cart .quantity.buttons_added {float:none;}
 table.shop_table.cart dl.variation {font-size:0.8em;line-height:1.4em;}
 table.shop_table.cart dl.variation dt {float:left;clear:left;margin-right:6px;text-transform:capitalize;color:#333;}
@@ -462,7 +462,7 @@ form.woo_cart .update_cart input:hover {background-color:#666;}
 .checkout-button:hover {color:#333;text-shadow:none;}
 .shipping_calculator .shipping-calculator-button {background-color:#333;border:1px solid #F8F8F8;box-shadow:0 1px 1px rgba(0, 0, 0, 0.5);padding:4px 6px;display:inline-block;color:#fff;text-shadow:-1px -1px 0 rgba(0, 0, 0, 0.6);position:relative;text-decoration:none;margin-bottom:10px;color:#fff;clear:right;float:right;border-radius:5px;}
 .shipping_calculator .shipping-calculator-button:hover {background-color:#666;}
-.cart-collaterals tr.shipping td{text-align:left;}
+.cart-collaterals tr.shipping td{text-align:right; float: right;}
 .cart-collaterals .related{width:30.75%;float:left;}
 .cart-collaterals .cross-sells{width:48%;float:left;}
 .cart-collaterals .cross-sells ul.products{float:none;}
@@ -777,3 +777,8 @@ border-left:1px solid #ddd;}
 .thankyou .addresses {}
 .thankyou .addresses .col-1 {float:left;margin-right:30px;}
 .thankyou .addresses .col-2 {float:left;}
+
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 { width:47% !important;}
+.cart-collaterals .cart_totals a.button.alt { display:none;}
+form.group { width: 66% !important;}
+.woocommerce-cart .cart-collaterals .cart_totals table { width:100% !important;}

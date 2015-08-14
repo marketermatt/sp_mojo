@@ -4,7 +4,7 @@ Theme URI: http://mojo.splashingpixels.com
 Description: A light clean and fun style theme for accessories alike
 Author: Splashing Pixels
 Author URI: http://splashingpixels.com
-Version: 2.2.5
+Version: 2.2.6
 Tags: light, 960, 1-column, 2-columns, 3-columns, responsive, mobile ready, fun
 
 License: GNU General Public License v2.0
@@ -935,7 +935,7 @@ div.wpcf7 {margin-bottom:20px;}
 .wpcf7-form input[type=text], .wpcf7-form textarea {border-radius:5px;border:1px solid #999;padding:5px;position:relative;}
 .wpcf7-form .wpcf7-form-control-wrap {position:relative;display:block;}
 .wpcf7-form .ajax-loader {margin-left:5px;position:relative;top:4px;}
-.wpcf7-form span.wpcf7-not-valid-tip {color:red;position:absolute;left:5px;top:3px;}
+.wpcf7-form span.wpcf7-not-valid-tip {color:red;position:absolute;left:5px;top:23px;}
 .wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {background-color:#FEF5E7;color:red;display:none;padding:10px;}
 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {background-color:#FEF5E7;color:green;display:none;padding:10px;}
 .wpcf7-form input[type=submit] {

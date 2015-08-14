@@ -40,4 +40,6 @@ require_once( get_template_directory() . '/sp-framework/sp-framework.php' );
 
  add_image_size( 'cat-thumb', 205, 85, true );
   add_image_size( 'prod-thumb', 300, 300, true );
+  
 
+add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 4;' ), 20 );
