@@ -83,5 +83,27 @@
 </div><!--close wrap-all-->            
 <?php dynamic_sidebar( 'site-bottom-widget' ); ?>
 <?php wp_footer(); ?>
+
+ <script>
+jQuery( document ).ready(function($) { 
+  $('.plus').live('click',function(){
+  var plus=$(this).prev().val();
+      plus=parseInt(plus)+1;
+      $(this).prev().val(plus);
+      //alert(plus);
+  }); 
+  
+  $('.minus').live('click',function(){
+  var minus=$(this).next().val();
+      if(minus>1) {
+      minus=parseInt(minus)-1;
+      $(this).next().val(minus);
+	  }
+      //alert(minus);
+  });
+  
+});
+
+</script>
 </body>
 </html>
