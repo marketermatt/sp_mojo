@@ -110,6 +110,5 @@ require_once( get_template_directory() . '/sp-framework/functions/control-panel.
 /////////////////////////////////////////////////////
 // include API manager code
 /////////////////////////////////////////////////////
-require_once( 'am/function.php' );
 		
 ?>
